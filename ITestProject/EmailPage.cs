@@ -18,6 +18,11 @@ namespace ITestProject
         [FindByXPath("//*[contains(@class, 'make_message')]/a")]
         public Link<NewMessagePage, _> MakeMessage { get; private set; }
 
+        //Лист успішно збережено
+        [FindByContent("Лист успішно збережено")]
+        public Text<_> EmailSavedTxt { get; private set; }
+
+
 
     }
 }

@@ -16,7 +16,9 @@ namespace ITestProject
             .MakeMessage.ClickAndGo<NewMessagePage>()
             .to.Set("Test@Test.com")
             .Subject.Set("Test")
-            .SaveInDrafts.ClickAndGo<EmailPage>();
+            .SaveInDrafts.ClickAndGo<EmailPage>()
+            .EmailSavedTxt.Should.Exist()
+            .EmailSavedTxt.Should.Contain("Лист успішно збережено");
         }
    }
 }

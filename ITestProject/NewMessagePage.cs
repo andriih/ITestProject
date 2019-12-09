@@ -19,10 +19,5 @@ namespace ITestProject
         //save_in_drafts
         [FindByName("save_in_drafts")]
         public Button<_> SaveInDrafts { get; private set; }
-
-        //Лист успішно збережено
-        public Text<_>EmailSavedTxt { get; private set; }
-
-
     }
 }

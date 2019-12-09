@@ -43,3 +43,25 @@ C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\obj\Debug\ITestProje
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\obj\Debug\ITestProject.csproj.CopyComplete
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\obj\Debug\ITestProject.dll
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\obj\Debug\ITestProject.pdb
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\nunit.engine.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\nunit.engine.api.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\ITestProject.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\ITestProject.pdb
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Atata.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Atata.WebDriverExtras.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Enums.NET.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\nunit.framework.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\WebDriver.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Atata.xml
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Enums.NET.pdb
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Enums.NET.xml
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\Atata.WebDriverExtras.xml
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\WebDriver.xml
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\nunit.framework.pdb
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\bin\Debug\nunit.framework.xml
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.csprojAssemblyReference.cache
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.csproj.CopyComplete
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.dll
+C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.pdb
