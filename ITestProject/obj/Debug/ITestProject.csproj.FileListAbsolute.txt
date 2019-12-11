@@ -65,3 +65,7 @@ C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\ob
 C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.csproj.CopyComplete
 C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.dll
 C:\Users\andri\OneDrive\Desktop\Нова папка\ITestProject\ITestProject\obj\Debug\ITestProject.pdb
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Atata.Configuration.Json.dll
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Atata.Configuration.Json.xml
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Newtonsoft.Json.xml

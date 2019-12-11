@@ -6,7 +6,7 @@ namespace ITestProject
     using _ = EmailPage;
     [VerifyContentMatches(TermMatch.Contains, "Вхідні")]
 
-    class EmailPage : Page<_>
+    public class EmailPage : Page<_>
     {
         [FindByXPath("//*[contains(@class, 'ho_menu_item')] /span[@class='icon-ho ho_settings ho_i_settings']")]
         public Clickable<_> Settings { get; private set; }
@@ -22,7 +22,14 @@ namespace ITestProject
         [FindByContent("Лист успішно збережено")]
         public Text<_> EmailSavedTxt { get; private set; }
 
+        [FindByXPath("//*[@class='block_confirmation']/div[contains(@class,'content')]")]
+        public Text<_> ConfirmationOfSendTxt { get; private set; }
+
+        [FindByXPath("//*[@class='list_underlined']/li[3]/a")]
+        public Link<DraftsPage,_> Drafts { get; private set; }
 
 
+
+        
     }
 }

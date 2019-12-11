@@ -1,11 +1,5 @@
-﻿
-
-using Atata;
+﻿using Atata;
 using NUnit.Framework;
-using System;
-using System.Reflection;
-using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
-
 
 namespace ITestProject
 {
@@ -15,21 +9,13 @@ namespace ITestProject
         [Test]
         public void testLogin()
         {
-            Go.To<LoginPage>()
-                .Login.Set("andrii.hnatyshyn")
-                .Password.Set("Adrenalin1")
-                .Domain.Set("email.ua")
-                .SignIn.ClickAndGo<EmailPage>();
+            LoginToEmail();
         }
 
         [Test]
         public void testLogOut()
         {
-            Go.To<LoginPage>()
-                .Login.Set("andrii.hnatyshyn")
-                .Password.Set("Adrenalin1")
-                .Domain.Set("email.ua")
-                .SignIn.ClickAndGo<EmailPage>()
+            LoginToEmail()
                 .Settings.Click()
                 .Exit.ClickAndGo<LoginPage>();
         }
