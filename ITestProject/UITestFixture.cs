@@ -1,5 +1,7 @@
 ﻿using Atata;
+using NUnit.Allure.Core;
 using NUnit.Framework;
+
 
 namespace ITestProject
 {
@@ -10,7 +12,7 @@ namespace ITestProject
         {
             get { return AtataConfig.Current; }
         }
-
+       
         [SetUp]
         public void SetUp()
         {
@@ -25,8 +27,11 @@ namespace ITestProject
                 LogNUnitError().
                 UseAssertionExceptionType<NUnit.Framework.AssertionException>().
                 UseNUnitAggregateAssertionStrategy().
+                TakeScreenshotOnNUnitError().
+                AddScreenshotFileSaving().
+                 WithFileName(screenshotInfo => $"{screenshotInfo.Number:D2} - {screenshotInfo.PageObjectFullName}{screenshotInfo.Title?.Prepend(" - ")}").
                 Build();
-        }
+        } 
 
         [TearDown]
         public void TearDown()

@@ -69,3 +69,7 @@ C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Atata.Conf
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Newtonsoft.Json.dll
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Atata.Configuration.Json.xml
 C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\ITestProject.dll.config
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\Allure.Commons.dll
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\MimeTypesMap.dll
+C:\Users\andrii.hnatyshyn\Desktop\ITestProject\ITestProject\bin\Debug\NUnit.Allure.dll

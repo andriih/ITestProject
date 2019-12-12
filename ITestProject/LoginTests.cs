@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 namespace ITestProject
 {
+    [TestFixture]
     public class LoginTests : UITestFixture
     {
   

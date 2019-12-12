@@ -3,8 +3,10 @@ using NUnit.Framework;
 
 namespace ITestProject
 {
+
    public class EmailTests : UITestFixture
    {
+
         [Test]
         public void emailNewEmailSaveInDrafts()
         {
@@ -30,18 +32,31 @@ namespace ITestProject
                 .ConfirmationOfSendTxt.Should.Contain("Лист успішно відправлено адресатам");
         }
 
+ 
         [Test]
         public void DeleteItemFromDrafts()
         {
             LoginToEmail()
                 .Drafts.ClickAndGo()
                 .Products.Count.Get(out int count)
-                .Products.Count.Should.Equal(count)
                 .FirstDraft.Click()
                 .DeleteBtn.Should.BeEnabled()
                 .DeleteBtn.Click().AcceptAlert()
                 .Products.Count.Should.Equal(count-1);
         }
 
+        [Test]
+        public void ValidationOfWelcomeMessage()
+        {
+            LoginToEmail()
+                .Inbox.ClickAndGo()
+                .WelcomeTxt.Should.Exist()
+                .WelcomeTxt.Should.Contain("Ласкаво просимо на I.UA!")
+                .WelcomeTxt.Hover()
+                .WelcomeMsgPopupTxt.Wait(Until.Visible)
+                .WelcomeMsgPopupTxt.Should.BeVisible()
+                //.Report.Screenshot()
+                .WelcomeMsgPopupTxt.Should.Contain(" Добрий день, Andrii Hnatyshyn.---");
+        }
     }
 }

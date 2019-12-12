@@ -28,8 +28,8 @@ namespace ITestProject
         [FindByXPath("//*[@class='list_underlined']/li[3]/a")]
         public Link<DraftsPage,_> Drafts { get; private set; }
 
+        [FindByXPath("//*[@class='list_underlined']/li[1]/a")]
+        public Link<InboxPage, _> Inbox { get; private set; }
 
-
-        
     }
 }
