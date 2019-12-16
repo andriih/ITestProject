@@ -1,13 +1,28 @@
-﻿using Atata;
+﻿using Allure.Commons;
+using Atata;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 
 namespace ITestProject
 {
-
-   public class EmailTests : UITestFixture
+    [AllureNUnit]
+    [TestFixture]
+    public class EmailTests : UITestFixture
    {
+        [OneTimeSetUp]
+        public void ClearResultsDir()
+        {
+            AllureLifecycle.Instance.CleanupResultDirectory();
+        }
 
         [Test]
+        [AllureTag("TC-Email")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureOwner("Andrii Hnatyshyn")]
+        [AllureSuite("Email Suite")]
+        [AllureSubSuite("Email")]
         public void emailNewEmailSaveInDrafts()
         {
 
@@ -21,19 +36,31 @@ namespace ITestProject
         }
 
         [Test]
+        [AllureTag("TC-Email")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureOwner("Andrii Hnatyshyn")]
+        [AllureSuite("Email Suite")]
+        [AllureSubSuite("Email")]
         public void ValidateSendingAnEmailWithoutSubject()
         {
             LoginToEmail()
                 .MakeMessage.ClickAndGo<NewMessagePage>()
                 .to.Set("Test@Test.com")
                 //"Ви хочете відправити повідомлення без теми?"
-                .send.Click().AcceprAlert().AcceprAlert()
+                .send.Click().AcceptAlert().AcceptAlert()
                 .ConfirmationOfSendTxt.Should.Exist() 
                 .ConfirmationOfSendTxt.Should.Contain("Лист успішно відправлено адресатам");
         }
 
  
         [Test]
+        [AllureTag("TC-Email")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureOwner("Andrii Hnatyshyn")]
+        [AllureSuite("Email Suite")]
+        [AllureSubSuite("Email")]
         public void DeleteItemFromDrafts()
         {
             LoginToEmail()
@@ -46,6 +73,12 @@ namespace ITestProject
         }
 
         [Test]
+        [AllureTag("TC-Email")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureOwner("Andrii Hnatyshyn")]
+        [AllureSuite("Email Suite")]
+        [AllureSubSuite("Email")]
         public void ValidationOfWelcomeMessage()
         {
             LoginToEmail()
