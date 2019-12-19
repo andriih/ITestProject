@@ -7,7 +7,7 @@ namespace ITestProject
 
     //andrii.hnatyshyn@email.ua
     [VerifyContentMatches(TermMatch.Contains, "andrii.hnatyshyn@email.ua")]
-    public class NewMessagePage : Page<_>
+    public class NewMessagePage : BasePage<_>
     {
         [WaitFor]
         [FindById]
@@ -25,13 +25,6 @@ namespace ITestProject
 
         [CloseConfirmBox]
         public ButtonDelegate<_> FirstConfirmation{ get; private set; }
-
-        public _ AcceprAlert()
-        {
-            IAlert alert = Driver.SwitchTo().Alert();
-            alert.Accept();
-            return Owner;
-        }
 
         [FindByXPath("//*[@class='block_confirmation']/div[contains(@class,'content')]")]
         public Text<_> ConfirmationOfSendTxt { get; private set; }

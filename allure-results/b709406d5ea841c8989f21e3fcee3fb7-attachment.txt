@@ -1,0 +1,42 @@
+2019-12-19 17:09:09.9225 INFO Starting test: testLogOut
+2019-12-19 17:09:09.9225 TRACE Starting: Set up AtataContext
+2019-12-19 17:09:09.9225 TRACE Use: "Atata.json" config
+2019-12-19 17:09:09.9225 TRACE Set: BaseUrl=https://www.i.ua/
+2019-12-19 17:09:09.9225 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2019-12-19 17:09:09.9235 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2019-12-19 17:09:09.9235 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2019-12-19 17:09:09.9235 TRACE Set: Culture=en-US
+2019-12-19 17:09:15.6447 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2019-12-19 17:09:15.6447 TRACE Finished: Set up AtataContext (5.722s)
+2019-12-19 17:09:15.6447 INFO Go to "Login" page
+2019-12-19 17:09:15.6487 INFO Go to URL "https://www.i.ua/"
+2019-12-19 17:09:20.0838 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2019-12-19 17:09:20.1168 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.032s)
+2019-12-19 17:09:20.1168 INFO Starting: Assert: content should contain "Пошта"
+2019-12-19 17:09:20.9085 INFO Finished: Assert: content should contain "Пошта" (0.791s)
+2019-12-19 17:09:20.9085 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2019-12-19 17:09:21.7707 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.862s)
+2019-12-19 17:09:21.7707 INFO Starting: Set "Adrenalin1" to "Password" password input
+2019-12-19 17:09:22.1017 INFO Finished: Set "Adrenalin1" to "Password" password input (0.330s)
+2019-12-19 17:09:22.1017 INFO Starting: Set "email.ua" to "Domain" select
+2019-12-19 17:09:22.1027 TRACE Starting: Click "Domain" select's "email.ua" option
+2019-12-19 17:09:22.3047 TRACE Finished: Click "Domain" select's "email.ua" option (0.202s)
+2019-12-19 17:09:22.3047 INFO Finished: Set "email.ua" to "Domain" select (0.203s)
+2019-12-19 17:09:22.3047 INFO Starting: Click "Sign In" button
+2019-12-19 17:09:29.5180 INFO Finished: Click "Sign In" button (7.213s)
+2019-12-19 17:09:29.5180 INFO Go to "Email" page
+2019-12-19 17:09:29.5210 INFO Starting: Assert: content should contain "Вхідні"
+2019-12-19 17:09:30.2648 INFO Finished: Assert: content should contain "Вхідні" (0.743s)
+2019-12-19 17:09:30.2658 INFO Starting: Click "Settings" control
+2019-12-19 17:09:30.5697 INFO Finished: Click "Settings" control (0.303s)
+2019-12-19 17:09:30.5697 INFO Starting: Click "Exit" control
+2019-12-19 17:09:32.1731 INFO Finished: Click "Exit" control (1.603s)
+2019-12-19 17:09:32.1741 INFO Go to "Login" page
+2019-12-19 17:09:32.1771 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2019-12-19 17:09:32.1851 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.007s)
+2019-12-19 17:09:32.1861 INFO Starting: Assert: content should contain "Пошта"
+2019-12-19 17:09:33.1558 INFO Finished: Assert: content should contain "Пошта" (0.969s)
+2019-12-19 17:09:33.1558 INFO Starting: Clean up test context
+2019-12-19 17:09:34.0405 INFO Finished: Clean up test context (0.884s)
+2019-12-19 17:09:34.0405 INFO Finished test (24.118s)
+2019-12-19 17:09:34.0405 INFO Pure test execution time: 17.511s

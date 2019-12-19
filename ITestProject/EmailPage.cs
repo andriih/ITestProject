@@ -6,7 +6,7 @@ namespace ITestProject
     using _ = EmailPage;
     [VerifyContentMatches(TermMatch.Contains, "Вхідні")]
 
-    public class EmailPage : Page<_>
+    public class EmailPage : BasePage<_>
     {
         [FindByXPath("//*[contains(@class, 'ho_menu_item')] /span[@class='icon-ho ho_settings ho_i_settings']")]
         public Clickable<_> Settings { get; private set; }

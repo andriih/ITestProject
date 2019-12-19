@@ -1,0 +1,74 @@
+{
+  "uuid": "7acbfae4-b75f-49e3-83e3-4955bac8271f-tc-0-1000",
+  "name": "ITestProject.LoginTests.testLoginWithWrongCreds",
+  "children": [
+    "861d836e-0d1f-4970-8a2e-2e46bd69582e-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768149915,
+      "stop": 1576768149915
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768149915,
+      "stop": 1576768149915
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768149915,
+      "stop": 1576768149915
+    },
+    {
+      "name": "AddAttachmentAfter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768149915,
+      "stop": 1576768149915
+    }
+  ],
+  "links": [],
+  "start": 1576768134542,
+  "stop": 1576768149917
+}

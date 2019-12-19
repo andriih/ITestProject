@@ -1,0 +1,44 @@
+2019-12-19 17:08:35.4895 INFO Starting test: DeleteItemFromDrafts
+2019-12-19 17:08:35.5155 TRACE Starting: Set up AtataContext
+2019-12-19 17:08:35.5155 TRACE Use: "Atata.json" config
+2019-12-19 17:08:35.5155 TRACE Set: BaseUrl=https://www.i.ua/
+2019-12-19 17:08:35.5175 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2019-12-19 17:08:35.5175 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2019-12-19 17:08:35.5185 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2019-12-19 17:08:35.5185 TRACE Set: Culture=en-US
+2019-12-19 17:08:41.4989 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2019-12-19 17:08:41.4989 TRACE Finished: Set up AtataContext (5.983s)
+2019-12-19 17:08:41.5199 INFO Go to "Login" page
+2019-12-19 17:08:41.5369 INFO Go to URL "https://www.i.ua/"
+2019-12-19 17:08:44.3709 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2019-12-19 17:08:44.5919 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.220s)
+2019-12-19 17:08:44.5929 INFO Starting: Assert: content should contain "Пошта"
+2019-12-19 17:08:45.3806 INFO Finished: Assert: content should contain "Пошта" (0.787s)
+2019-12-19 17:08:45.3806 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2019-12-19 17:08:45.8055 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.424s)
+2019-12-19 17:08:45.8065 INFO Starting: Set "Adrenalin1" to "Password" password input
+2019-12-19 17:08:45.9994 INFO Finished: Set "Adrenalin1" to "Password" password input (0.192s)
+2019-12-19 17:08:45.9994 INFO Starting: Set "email.ua" to "Domain" select
+2019-12-19 17:08:45.9994 TRACE Starting: Click "Domain" select's "email.ua" option
+2019-12-19 17:08:46.1524 TRACE Finished: Click "Domain" select's "email.ua" option (0.152s)
+2019-12-19 17:08:46.1524 INFO Finished: Set "email.ua" to "Domain" select (0.152s)
+2019-12-19 17:08:46.1524 INFO Starting: Click "Sign In" button
+2019-12-19 17:08:54.1453 INFO Finished: Click "Sign In" button (7.992s)
+2019-12-19 17:08:54.1463 INFO Go to "Email" page
+2019-12-19 17:08:54.1473 INFO Starting: Assert: content should contain "Вхідні"
+2019-12-19 17:08:54.7381 INFO Finished: Assert: content should contain "Вхідні" (0.590s)
+2019-12-19 17:08:54.7381 INFO Starting: Click "Drafts" link
+2019-12-19 17:08:58.6938 INFO Finished: Click "Drafts" link (3.955s)
+2019-12-19 17:08:58.6948 INFO Go to "Drafts" page
+2019-12-19 17:08:58.7888 INFO Starting: Click "First Draft" checkbox
+2019-12-19 17:08:58.8788 INFO Finished: Click "First Draft" checkbox (0.089s)
+2019-12-19 17:08:58.8848 INFO Starting: Assert: "Delete Btn" control enabled state should be true
+2019-12-19 17:08:59.0097 INFO Finished: Assert: "Delete Btn" control enabled state should be true (0.124s)
+2019-12-19 17:08:59.0107 INFO Starting: Click "Delete Btn" control
+2019-12-19 17:08:59.3976 INFO Finished: Click "Delete Btn" control (0.386s)
+2019-12-19 17:08:59.4356 INFO Starting: Assert: products count should equal "1"
+2019-12-19 17:09:01.2645 INFO Finished: Assert: products count should equal "1" (1.828s)
+2019-12-19 17:09:01.2655 INFO Starting: Clean up test context
+2019-12-19 17:09:02.0683 INFO Finished: Clean up test context (0.802s)
+2019-12-19 17:09:02.0683 INFO Finished test (26.851s)
+2019-12-19 17:09:02.0683 INFO Pure test execution time: 19.766s

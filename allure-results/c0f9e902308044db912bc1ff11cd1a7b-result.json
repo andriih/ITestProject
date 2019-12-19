@@ -1,0 +1,89 @@
+{
+  "uuid": "cdd79a25-eec1-4814-ba6e-2ca8f44eed21-tr-0-1005",
+  "historyId": "ITestProject.EmailTests.emailNewEmailSaveInDrafts",
+  "fullName": "ITestProject.EmailTests.emailNewEmailSaveInDrafts",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "WS-TR-CP0877"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "emailNewEmailSaveInDrafts"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Email"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "Email Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Email"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "emailNewEmailSaveInDrafts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "emailNewEmailSaveInDrafts",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "29965e56cacb489582c1b90a74196c72-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1576768142235,
+      "stop": 1576768174064
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1576768142235,
+  "stop": 1576768174065
+}

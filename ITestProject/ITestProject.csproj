@@ -60,6 +60,8 @@
     <Reference Include="System.ComponentModel.Composition.Registration" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -78,13 +80,13 @@
   <ItemGroup>
     <Compile Include="AtataConfig.cs" />
     <Compile Include="BasePage.cs" />
+    <Compile Include="LoginTests.cs" />
     <Compile Include="Domain.cs" />
     <Compile Include="DraftsPage.cs" />
     <Compile Include="EmailPage.cs" />
     <Compile Include="EmailTests.cs" />
     <Compile Include="InboxPage.cs" />
     <Compile Include="LoginPage.cs" />
-    <Compile Include="LoginTests.cs" />
     <Compile Include="NewMessagePage.cs" />
     <Compile Include="PassportPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

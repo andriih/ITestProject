@@ -3,17 +3,35 @@ using Atata;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
-
+using OpenQA.Selenium.Remote;
+using System.Collections.Generic;
+using System.IO;
 
 namespace ITestProject
 {
+
     [AllureNUnit]
     [TestFixture]
     public class LoginTests : UITestFixture
     {
+        
+        [TearDown]
+        public void AddAttachmentAfter()
+        {
+            //AllureLifecycle.Instance.AddAttachment(
+            //Path.Combine(TestContext.CurrentContext.TestDirectory + $@"/Logs", $"{ AtataContext.Current.TestName}.png"),
+            //$"{ AtataContext.Current.TestName}.png");
+
+            if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
+            {
+                AllureLifecycle.Instance.AddAttachment($"{ AtataContext.Current.TestName}.png",
+                "image/png",
+                ((ITakesScreenshot)AtataContext.Current.Driver).GetScreenshot().AsByteArray);
+            }
+         }
 
         [OneTimeSetUp]
         public void ClearResultsDir()
@@ -32,10 +50,10 @@ namespace ITestProject
         {
             AllureLifecycle.Instance.WrapInStep(() =>
             {
-
               LoginToEmail();
+            }, "Login");
 
-            }, "STEP : Login ");
+            AddAttachmentAfter();
 
         }
 
@@ -51,6 +69,7 @@ namespace ITestProject
             LoginToEmail()
                 .Settings.Click()
                 .Exit.ClickAndGo<LoginPage>();
+           AddAttachmentAfter();
         }
 
         [Test]
@@ -67,6 +86,7 @@ namespace ITestProject
                 .Password.Set("Adrenalin1")
                 .Domain.Set("email.ua")
                 .SignIn.ClickAndGo<PassportPage>();
+           AddAttachmentAfter();
         }
     }
 }

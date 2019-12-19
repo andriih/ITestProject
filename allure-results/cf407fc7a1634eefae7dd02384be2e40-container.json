@@ -1,0 +1,74 @@
+{
+  "uuid": "a4c82962-57d9-4d8f-b439-1e9d27139e4b-tc-0-1004",
+  "name": "ITestProject.EmailTests.ValidateSendingAnEmailWithoutSubject",
+  "children": [
+    "2d8eca82-5143-4fb7-8009-6f5555099756-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768197399,
+      "stop": 1576768197399
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768197399,
+      "stop": 1576768197399
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768197399,
+      "stop": 1576768197399
+    },
+    {
+      "name": "AddAttachmentAfter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1576768197399,
+      "stop": 1576768197399
+    }
+  ],
+  "links": [],
+  "start": 1576768174068,
+  "stop": 1576768197402
+}

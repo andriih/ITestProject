@@ -1,10 +1,14 @@
-﻿using Atata;
+﻿using Allure.Commons;
+using Atata;
 using NUnit.Allure.Core;
 using NUnit.Framework;
-
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System.IO;
 
 namespace ITestProject
 {
+
     [TestFixture]
     public class UITestFixture
     {
@@ -27,14 +31,15 @@ namespace ITestProject
                 LogNUnitError().
                 UseAssertionExceptionType<NUnit.Framework.AssertionException>().
                 UseNUnitAggregateAssertionStrategy().
-                TakeScreenshotOnNUnitError().
-                AddScreenshotFileSaving().
-                 WithFileName(screenshotInfo => $"{screenshotInfo.Number:D2} - {screenshotInfo.PageObjectFullName}{screenshotInfo.Title?.Prepend(" - ")}").
+                //AddScreenshotFileSaving().
+                //  WithFolderPath(() => TestContext.CurrentContext.TestDirectory+ $@"\Logs").
+                //  WithFileName(screenshotInfo => $"{ AtataContext.Current.TestName}").
+                //TakeScreenshotOnNUnitError().
                 Build();
-        } 
+        }
 
         [TearDown]
-        public void TearDown()
+        virtual public void TearDown()
         {
             AtataContext.Current?.CleanUp();
         }

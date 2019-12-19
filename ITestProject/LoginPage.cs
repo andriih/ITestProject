@@ -7,7 +7,7 @@ namespace ITestProject
     [VerifyTitle("І.UA - твоя пошта")]
     [VerifyContent("Пошта")]
 
-    public class LoginPage : Page<_>
+    public class LoginPage : BasePage<_>
     {
         [FindByName("login")]
         public TextInput<_> Login { get; private set; }

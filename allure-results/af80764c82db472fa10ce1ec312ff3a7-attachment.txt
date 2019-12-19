@@ -1,0 +1,33 @@
+2019-12-19 17:08:35.4905 INFO Starting test: testLogin
+2019-12-19 17:08:35.5155 TRACE Starting: Set up AtataContext
+2019-12-19 17:08:35.5155 TRACE Use: "Atata.json" config
+2019-12-19 17:08:35.5165 TRACE Set: BaseUrl=https://www.i.ua/
+2019-12-19 17:08:35.5175 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2019-12-19 17:08:35.5185 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2019-12-19 17:08:35.5185 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2019-12-19 17:08:35.5185 TRACE Set: Culture=en-US
+2019-12-19 17:08:41.3829 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2019-12-19 17:08:41.3839 TRACE Finished: Set up AtataContext (5.868s)
+2019-12-19 17:08:41.4299 INFO Go to "Login" page
+2019-12-19 17:08:41.5369 INFO Go to URL "https://www.i.ua/"
+2019-12-19 17:08:44.4559 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2019-12-19 17:08:44.4949 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.038s)
+2019-12-19 17:08:44.4979 INFO Starting: Assert: content should contain "Пошта"
+2019-12-19 17:08:45.0837 INFO Finished: Assert: content should contain "Пошта" (0.585s)
+2019-12-19 17:08:45.0847 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2019-12-19 17:08:45.3266 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.241s)
+2019-12-19 17:08:45.3276 INFO Starting: Set "Adrenalin1" to "Password" password input
+2019-12-19 17:08:45.7505 INFO Finished: Set "Adrenalin1" to "Password" password input (0.422s)
+2019-12-19 17:08:45.7515 INFO Starting: Set "email.ua" to "Domain" select
+2019-12-19 17:08:45.7605 TRACE Starting: Click "Domain" select's "email.ua" option
+2019-12-19 17:08:45.9024 TRACE Finished: Click "Domain" select's "email.ua" option (0.141s)
+2019-12-19 17:08:45.9034 INFO Finished: Set "email.ua" to "Domain" select (0.151s)
+2019-12-19 17:08:45.9034 INFO Starting: Click "Sign In" button
+2019-12-19 17:08:53.0547 INFO Finished: Click "Sign In" button (7.151s)
+2019-12-19 17:08:53.0667 INFO Go to "Email" page
+2019-12-19 17:08:53.0807 INFO Starting: Assert: content should contain "Вхідні"
+2019-12-19 17:08:53.6015 INFO Finished: Assert: content should contain "Вхідні" (0.520s)
+2019-12-19 17:08:53.6945 INFO Starting: Clean up test context
+2019-12-19 17:08:54.4242 INFO Finished: Clean up test context (0.729s)
+2019-12-19 17:08:54.4242 INFO Finished test (19.207s)
+2019-12-19 17:08:54.4252 INFO Pure test execution time: 12.309s
