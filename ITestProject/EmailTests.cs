@@ -5,9 +5,7 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
-using System.IO;
+
 
 namespace ITestProject
 {
@@ -28,10 +26,9 @@ namespace ITestProject
 
             if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
             {
-
-             AllureLifecycle.Instance.AddAttachment($"{ AtataContext.Current.TestName}.png",
-             "image/png",
-            ((ITakesScreenshot)AtataContext.Current.Driver).GetScreenshot().AsByteArray);
+                AllureLifecycle.Instance.AddAttachment($"{ AtataContext.Current.TestName}.png",
+                "image/png",
+                ((ITakesScreenshot)AtataContext.Current.Driver).GetScreenshot().AsByteArray);
             }
         }
 
