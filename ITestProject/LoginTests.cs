@@ -1,6 +1,5 @@
 ﻿using Allure.Commons;
 using Atata;
-using ITestProject.bin.Debug;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
@@ -84,30 +83,6 @@ namespace ITestProject
                 .Domain.Set("email.ua")
                 .SignIn.ClickAndGo<PassportPage>();
            AddAttachmentAfter();
-        }
-
-        [Test]
-        [AllureTag("TC-Email")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureIssue("ISSUE-1")]
-        [AllureOwner("Andrii Hnatyshyn")]
-        [AllureSuite("Login Suite")]
-        [AllureSubSuite("Login")]
-        public void testLoginWithWrongCredsDomain()
-        {
-            var director = new DomainDirector();
-            var builder = new DomainBuilder();
-
-            director.Builder = builder;
-            //director.loginWithFeaturedDonain();
-            builder.buildUafmDomain();
-
-            Go.To<LoginPage>()
-                .Login.Set("andrii.hnatyshyn")
-                .Password.Set("Adrenalin1")
-                .Domain.Set(builder.GetDomain().ListItems())
-                .SignIn.ClickAndGo<PassportPage>();
-            AddAttachmentAfter();
         }
     }
 }

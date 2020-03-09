@@ -98,11 +98,9 @@
   <ItemGroup>
     <Compile Include="AtataConfig.cs" />
     <Compile Include="BasePage.cs" />
-    <Compile Include="DomainBuilder.cs" />
-    <Compile Include="DomainDirector.cs" />
-    <Compile Include="DomainItem.cs" />
+    <Compile Include="EmailBuilder.cs" />
+    <Compile Include="IMessageBuilder.cs" />
     <Compile Include="LoginTests.cs" />
-    <Compile Include="Domain.cs" />
     <Compile Include="DraftsPage.cs" />
     <Compile Include="EmailPage.cs" />
     <Compile Include="EmailTests.cs" />

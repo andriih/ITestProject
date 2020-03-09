@@ -9,9 +9,13 @@ namespace ITestProject
     [VerifyContentMatches(TermMatch.Contains, "andrii.hnatyshyn@email.ua")]
     public class NewMessagePage : BasePage<_>
     {
+
         [WaitFor]
         [FindById]
-        public TextArea<_> to { get; private set; }
+        public TextArea<_> to { get; protected set; }
+
+        [FindById]
+        public TextArea<_> text { get; protected set; }
 
         [FindByName("subject")]
         public TextInput<_> Subject { get; private set; }
@@ -24,9 +28,16 @@ namespace ITestProject
         public Button<_> send { get; private set; }
 
         [CloseConfirmBox]
-        public ButtonDelegate<_> FirstConfirmation{ get; private set; }
+        public ButtonDelegate<_> FirstConfirmation { get; private set; }
 
         [FindByXPath("//*[@class='block_confirmation']/div[contains(@class,'content')]")]
         public Text<_> ConfirmationOfSendTxt { get; private set; }
+
+        //cc_sw
+        [FindById("cc_sw")]
+        public Control<_> CopyButton { get; private set; }
+
+        [FindById]
+        public TextArea<_> cc{ get; private set; }
     }
 }
