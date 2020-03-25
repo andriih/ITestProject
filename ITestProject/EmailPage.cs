@@ -31,5 +31,9 @@ namespace ITestProject
         [FindByXPath("//*[@class='list_underlined']/li[1]/a")]
         public Link<InboxPage, _> Inbox { get; private set; }
 
+        //[FindByClass("ho_menu_item")]
+        [FindByXPath("//*[contains(@class, 'ho_menu_item')]/a[1]")]
+        public Text<_> Title { get; private set; }
+
     }
 }

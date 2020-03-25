@@ -46,6 +46,9 @@
     <Reference Include="Autofac, Version=5.1.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.5.1.2\lib\net461\Autofac.dll</HintPath>
     </Reference>
+    <Reference Include="CsvHelper, Version=7.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.7.1.1\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="Enums.NET, Version=3.0.0.0, Culture=neutral, PublicKeyToken=7ea1c1650d506225, processorArchitecture=MSIL">
       <HintPath>..\packages\Enums.NET.3.0.3\lib\net45\Enums.NET.dll</HintPath>
     </Reference>
@@ -98,8 +101,13 @@
   <ItemGroup>
     <Compile Include="AtataConfig.cs" />
     <Compile Include="BasePage.cs" />
+    <Compile Include="CsvSource.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DataDrivenTests.cs" />
     <Compile Include="EmailBuilder.cs" />
     <Compile Include="IMessageBuilder.cs" />
+    <Compile Include="LoginModel.cs" />
     <Compile Include="LoginTests.cs" />
     <Compile Include="DraftsPage.cs" />
     <Compile Include="EmailPage.cs" />
@@ -112,6 +120,7 @@
     <Compile Include="NUnitSettings.cs" />
     <Compile Include="AtataSettings.cs" />
     <Compile Include="SingletonDatabase.cs" />
+    <Compile Include="TestParametersFormatter.cs" />
     <Compile Include="UITestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +128,9 @@
     <None Include="bin\Debug\allureConfig.json" />
     <None Include="app.config" />
     <None Include="bin\Debug\Atata.json" />
+    <None Include="login-models.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

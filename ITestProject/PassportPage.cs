@@ -6,6 +6,5 @@ namespace ITestProject
     [VerifyH2("Вхід для користувачів")]
     class PassportPage : Page<_>
     {
-
     }
 }
