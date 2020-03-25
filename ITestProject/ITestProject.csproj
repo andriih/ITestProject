@@ -100,27 +100,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AtataConfig.cs" />
-    <Compile Include="BasePage.cs" />
-    <Compile Include="CsvSource.cs">
+    <Compile Include="Components\BasePage.cs" />
+    <Compile Include="Extensions\CsvSource.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="DataDrivenTests.cs" />
-    <Compile Include="EmailBuilder.cs" />
-    <Compile Include="IMessageBuilder.cs" />
-    <Compile Include="LoginModel.cs" />
-    <Compile Include="LoginTests.cs" />
-    <Compile Include="DraftsPage.cs" />
-    <Compile Include="EmailPage.cs" />
-    <Compile Include="EmailTests.cs" />
-    <Compile Include="InboxPage.cs" />
-    <Compile Include="LoginPage.cs" />
-    <Compile Include="NewMessagePage.cs" />
-    <Compile Include="PassportPage.cs" />
+    <Compile Include="Tests\DataDrivenTests.cs" />
+    <Compile Include="Models\EmailBuilder.cs" />
+    <Compile Include="Models\IMessageBuilder.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Tests\LoginTests.cs" />
+    <Compile Include="Components\DraftsPage.cs" />
+    <Compile Include="Components\EmailPage.cs" />
+    <Compile Include="Tests\EmailTests.cs" />
+    <Compile Include="Components\InboxPage.cs" />
+    <Compile Include="Components\LoginPage.cs" />
+    <Compile Include="Components\NewMessagePage.cs" />
+    <Compile Include="Components\PassportPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NUnitSettings.cs" />
     <Compile Include="AtataSettings.cs" />
-    <Compile Include="SingletonDatabase.cs" />
-    <Compile Include="TestParametersFormatter.cs" />
+    <Compile Include="Models\SingletonDatabase.cs" />
+    <Compile Include="Extensions\TestParametersFormatter.cs" />
     <Compile Include="UITestFixture.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -128,7 +128,7 @@
     <None Include="bin\Debug\allureConfig.json" />
     <None Include="app.config" />
     <None Include="bin\Debug\Atata.json" />
-    <None Include="login-models.csv">
+    <None Include="Data\login-models.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
@@ -137,7 +137,7 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="capitals.txt">
+    <Content Include="Data\capitals.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

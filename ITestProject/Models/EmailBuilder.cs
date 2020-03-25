@@ -9,6 +9,10 @@ namespace ITestProject
 {
     public class EmailBuilder : IMessageBuilder<NewMessagePage,EmailBuilder>
     {
+        private string email = "andrii.hnatyshyh@gmail.com";
+        private string subjText = "test subject - test";
+        private string cc = "test-copy@mail.com";
+
         private static NewMessagePage _message;
         public EmailBuilder(NewMessagePage obj)
         {
@@ -20,13 +24,13 @@ namespace ITestProject
             return this;
         }
 
-        public EmailBuilder BuildEmailWithoutBody(string email = "andrii.hnatyshyh@gmail.com", string subjText = "test subject - test")
+        public EmailBuilder BuildEmailWithoutBody()
         {
             _message.to.Set(email);
             _message.Subject.Set(subjText);
             return this;
         }
-        public EmailBuilder BuildEmailWithCopy(string email = "andrii.hnatyshyh@gmail.com", string subjText = "test subject - test", string cc = "test-copy@mail.com")
+        public EmailBuilder BuildEmailWithCopy()
         {
             _message.CopyButton.Click();
             _message.to.Set(email);

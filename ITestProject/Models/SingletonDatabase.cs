@@ -26,7 +26,7 @@ namespace ITestProject
             capitals = File.ReadAllLines(
 
                 Path.Combine(
-                      new FileInfo(typeof(IDatabase).Assembly.Location).DirectoryName, "capitals.txt")
+                      new FileInfo(typeof(IDatabase).Assembly.Location).DirectoryName, "Data/capitals.txt")
                  )
 
                 .Batch(2)

@@ -66,7 +66,7 @@ namespace ITestProject
                 .MakeMessage.ClickAndGo<NewMessagePage>()
                 .to.Set("Test@Test.com")
                 //"Ви хочете відправити повідомлення без теми?"
-                .send.Click().AcceptAlert().AcceptAlert()
+                .send.Click().AcceptAlert().Wait(3).AcceptAlert()
                 .ConfirmationOfSendTxt.Should.Exist() 
                 .ConfirmationOfSendTxt.Should.Contain("Лист успішно відправлено адресатам");
             AddAttachmentAfter();

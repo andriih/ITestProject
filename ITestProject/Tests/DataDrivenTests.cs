@@ -6,7 +6,7 @@ namespace ITestProject
 {
     class DataDrivenTests : UITestFixture
     {
-        public static TestCaseData[] LoginModels => CsvSource.Get<LoginModel>("login-models.csv");
+        public static TestCaseData[] LoginModels => CsvSource.Get<LoginModel>("Data/login-models.csv");
 
         [TestCaseSource(nameof(LoginModels))]
         public void LoginWithDifferentCreds(LoginModel model)
