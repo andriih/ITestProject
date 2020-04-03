@@ -160,6 +160,7 @@
     <Compile Include="Hooks\SpecFlowHooks.cs" />
     <Compile Include="StepDefinitions\BaseSteps.cs" />
     <Compile Include="StepDefinitions\LoginSteps.cs" />
+    <Compile Include="StepDefinitions\SendEmailSteps.cs" />
     <Compile Include="Tests\DataDrivenTests.cs" />
     <Compile Include="Models\EmailBuilder.cs" />
     <Compile Include="Models\IMessageBuilder.cs" />
@@ -188,6 +189,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Features\Login.feature" />
+    <None Include="Features\SendEmail.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
