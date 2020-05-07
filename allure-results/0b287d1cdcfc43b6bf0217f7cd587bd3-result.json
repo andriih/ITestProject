@@ -1,0 +1,94 @@
+{
+  "uuid": "fc16fd5e-16c4-4558-a090-66114ef92d3a-tr-0-1025",
+  "historyId": "ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test2\",null)",
+  "fullName": "ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test2\",null)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Features.LoginFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithDifferentCredentials"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Features.LoginFeature"
+    },
+    {
+      "name": "tag",
+      "value": "smoketest"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test2\",null)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Wrong \"Email\" page content.\r\nExpected: should contain \"Вхідні\"\r\nActual: \"Вхід для користувачів\r\nНевірний логін або пароль\r\nзареєструватися\r\nЛогін\r\nнагадати пароль\r\nПароль\r\nзапам'ятати мене\r\nчерез:\r\n© I.UA, 2006-2020.\r\nЗворотний зв'язок\"",
+    "trace": "   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)\r\n   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)\r\n   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)\r\n   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)\r\n   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\StepDefinitions\\BaseSteps.cs:line 12\r\n   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\StepDefinitions\\LoginSteps.cs:line 38\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 203\r\n   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\\a\\1\\s\\TechTalk.SpecFlow\\TestRunner.cs:line 59\r\n   at ITestProject.Features.LoginFeature.ScenarioCleanup()\r\n   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Features\\Login.feature:line 12\r\n"
+  },
+  "stage": "finished",
+  "description": "Login with Different credentials\nLogin\n",
+  "steps": [
+    {
+      "name": "LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test2\",null)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Wrong \"Email\" page content.\r\nExpected: should contain \"Вхідні\"\r\nActual: \"Вхід для користувачів\r\nНевірний логін або пароль\r\nзареєструватися\r\nЛогін\r\nнагадати пароль\r\nПароль\r\nзапам'ятати мене\r\nчерез:\r\n© I.UA, 2006-2020.\r\nЗворотний зв'язок\"",
+        "trace": "   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)\r\n   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)\r\n   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)\r\n   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)\r\n   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\StepDefinitions\\BaseSteps.cs:line 12\r\n   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\StepDefinitions\\LoginSteps.cs:line 38\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 69\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 517\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 422\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 203\r\n   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\\a\\1\\s\\TechTalk.SpecFlow\\TestRunner.cs:line 59\r\n   at ITestProject.Features.LoginFeature.ScenarioCleanup()\r\n   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Features\\Login.feature:line 12\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test2\",null).png",
+          "source": "4882fe4784714a32929999e9ed265248-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "589c0b59f6934f1787eab166b9261ec7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861801281,
+      "stop": 1588861848908
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "email.ua"
+    },
+    {
+      "name": "Param #1",
+      "value": "andrii.hnatyshyn"
+    },
+    {
+      "name": "Param #2",
+      "value": "Adrenalin1Test2"
+    },
+    {
+      "name": "Param #3",
+      "value": "NULL"
+    }
+  ],
+  "start": 1588861801281,
+  "stop": 1588861848909
+}

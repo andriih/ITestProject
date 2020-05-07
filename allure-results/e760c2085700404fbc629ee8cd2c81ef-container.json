@@ -1,0 +1,76 @@
+{
+  "uuid": "504ae5a4-0be9-4eb0-908b-7c787d29ee6f-tc-0-1021",
+  "name": "ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(\"email.ua\",\"andrii.hnatyshyn\",\"Adrenalin1Test1\",null)",
+  "children": [
+    "7f89b582-6bba-4108-821a-fd0fe099c1c3-tr-0-1024"
+  ],
+  "befores": [
+    {
+      "name": "FeatureSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861801223,
+      "stop": 1588861801223
+    },
+    {
+      "name": "TestInitialize",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861801223,
+      "stop": 1588861801223
+    }
+  ],
+  "afters": [
+    {
+      "name": "TestTearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861801223,
+      "stop": 1588861801223
+    },
+    {
+      "name": "FeatureTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861801223,
+      "stop": 1588861801223
+    }
+  ],
+  "links": [],
+  "start": 1588861719564,
+  "stop": 1588861801263
+}

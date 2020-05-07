@@ -1,0 +1,330 @@
+2020-05-07 17:26:49.9645 INFO Starting test: LoginWithDifferentCreds("tes1"," tes1@mail.com")
+2020-05-07 17:26:49.9645 INFO Starting test: LoginWithDifferentCreds("tes1"," tes1@mail.com")
+2020-05-07 17:26:49.9645 INFO Starting test: LoginWithDifferentCreds("tes1"," tes1@mail.com")
+2020-05-07 17:26:50.0184 TRACE Starting: Set up AtataContext
+2020-05-07 17:26:50.0184 TRACE Starting: Set up AtataContext
+2020-05-07 17:26:50.0184 TRACE Starting: Set up AtataContext
+2020-05-07 17:26:50.0644 TRACE Use: "Atata.json" config
+2020-05-07 17:26:50.0644 TRACE Use: "Atata.json" config
+2020-05-07 17:26:50.0644 TRACE Use: "Atata.json" config
+2020-05-07 17:26:50.0654 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:26:50.0654 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:26:50.0654 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:26:50.0684 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:26:50.0684 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:26:50.0684 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:26:50.0724 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:26:50.0734 TRACE Set: Culture=en-US
+2020-05-07 17:26:50.0734 TRACE Set: Culture=en-US
+2020-05-07 17:26:50.0734 TRACE Set: Culture=en-US
+2020-05-07 17:26:57.9955 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:26:57.9955 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:26:57.9955 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:26:57.9985 TRACE Finished: Set up AtataContext (7.980s)
+2020-05-07 17:26:57.9985 TRACE Finished: Set up AtataContext (7.980s)
+2020-05-07 17:26:57.9985 TRACE Finished: Set up AtataContext (7.980s)
+2020-05-07 17:26:58.0814 INFO Go to "Login" page
+2020-05-07 17:26:58.0814 INFO Go to "Login" page
+2020-05-07 17:26:58.0814 INFO Go to "Login" page
+2020-05-07 17:26:58.2483 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:26:58.2483 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:26:58.2483 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:27:26.2131 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:27:26.2131 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:27:26.2131 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:27:26.2301 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:27:26.2301 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:27:26.2301 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:27:26.2311 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:27:26.2311 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:27:26.2311 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:27:28.8454 INFO Finished: Assert: content should contain "Пошта" (2.614s)
+2020-05-07 17:27:28.8454 INFO Finished: Assert: content should contain "Пошта" (2.614s)
+2020-05-07 17:27:28.8454 INFO Finished: Assert: content should contain "Пошта" (2.614s)
+2020-05-07 17:27:28.8464 INFO Starting: Set "tes1" to "Login" text input
+2020-05-07 17:27:28.8464 INFO Starting: Set "tes1" to "Login" text input
+2020-05-07 17:27:28.8464 INFO Starting: Set "tes1" to "Login" text input
+2020-05-07 17:27:29.8488 INFO Finished: Set "tes1" to "Login" text input (1.002s)
+2020-05-07 17:27:29.8488 INFO Finished: Set "tes1" to "Login" text input (1.002s)
+2020-05-07 17:27:29.8488 INFO Finished: Set "tes1" to "Login" text input (1.002s)
+2020-05-07 17:27:29.8498 INFO Starting: Set "tes1@mail.com" to "Password" password input
+2020-05-07 17:27:29.8498 INFO Starting: Set "tes1@mail.com" to "Password" password input
+2020-05-07 17:27:29.8498 INFO Starting: Set "tes1@mail.com" to "Password" password input
+2020-05-07 17:27:30.8612 INFO Finished: Set "tes1@mail.com" to "Password" password input (1.011s)
+2020-05-07 17:27:30.8612 INFO Finished: Set "tes1@mail.com" to "Password" password input (1.011s)
+2020-05-07 17:27:30.8612 INFO Finished: Set "tes1@mail.com" to "Password" password input (1.011s)
+2020-05-07 17:27:30.8622 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:27:30.8622 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:27:30.8622 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:27:30.8652 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:27:30.8652 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:27:30.8652 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:27:32.0165 TRACE Finished: Click "Domain" select's "email.ua" option (1.151s)
+2020-05-07 17:27:32.0165 TRACE Finished: Click "Domain" select's "email.ua" option (1.151s)
+2020-05-07 17:27:32.0165 TRACE Finished: Click "Domain" select's "email.ua" option (1.151s)
+2020-05-07 17:27:32.0185 INFO Finished: Set "email.ua" to "Domain" select (1.156s)
+2020-05-07 17:27:32.0185 INFO Finished: Set "email.ua" to "Domain" select (1.156s)
+2020-05-07 17:27:32.0185 INFO Finished: Set "email.ua" to "Domain" select (1.156s)
+2020-05-07 17:27:32.0195 INFO Starting: Click "Sign In" button
+2020-05-07 17:27:32.0195 INFO Starting: Click "Sign In" button
+2020-05-07 17:27:32.0195 INFO Starting: Click "Sign In" button
+2020-05-07 17:27:33.2797 INFO Finished: Click "Sign In" button (1.260s)
+2020-05-07 17:27:33.2797 INFO Finished: Click "Sign In" button (1.260s)
+2020-05-07 17:27:33.2797 INFO Finished: Click "Sign In" button (1.260s)
+2020-05-07 17:27:33.3077 INFO Go to "Email" page
+2020-05-07 17:27:33.3077 INFO Go to "Email" page
+2020-05-07 17:27:33.3077 INFO Go to "Email" page
+2020-05-07 17:27:33.3337 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:27:33.3337 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:27:33.3337 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:27:39.6727 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6727 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6727 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6807 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6807 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6807 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6817 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6817 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6817 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\DataDrivenTests.cs:line 14
+
+2020-05-07 17:27:39.6857 INFO Starting: Clean up test context
+2020-05-07 17:27:39.6857 INFO Starting: Clean up test context
+2020-05-07 17:27:39.6857 INFO Starting: Clean up test context
+2020-05-07 17:27:42.9757 INFO Finished: Clean up test context (3.289s)
+2020-05-07 17:27:42.9757 INFO Finished: Clean up test context (3.289s)
+2020-05-07 17:27:42.9757 INFO Finished: Clean up test context (3.289s)
+2020-05-07 17:27:42.9777 INFO Finished test (53.520s)
+2020-05-07 17:27:42.9777 INFO Finished test (53.520s)
+2020-05-07 17:27:42.9777 INFO Finished test (53.520s)
+2020-05-07 17:27:42.9787 INFO Pure test execution time: 41.685s
+2020-05-07 17:27:42.9787 INFO Pure test execution time: 41.685s
+2020-05-07 17:27:42.9787 INFO Pure test execution time: 41.685s

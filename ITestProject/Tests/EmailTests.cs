@@ -20,18 +20,6 @@ namespace ITestProject
             AllureLifecycle.Instance.CleanupResultDirectory();
         }
 
-        [TearDown]
-        public void AddAttachmentAfter()
-        {
-
-            if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
-            {
-                AllureLifecycle.Instance.AddAttachment($"{ AtataContext.Current.TestName}.png",
-                "image/png",
-                ((ITakesScreenshot)AtataContext.Current.Driver).GetScreenshot().AsByteArray);
-            }
-        }
-
         [Test]
         [AllureTag("TC-Email")]
         [AllureSeverity(SeverityLevel.critical)]
@@ -49,8 +37,6 @@ namespace ITestProject
                 .SaveInDrafts.ClickAndGo<EmailPage>()
                 .EmailSavedTxt.Should.Exist()
                 .EmailSavedTxt.Should.Contain("Лист успішно збережено");
-
-            AddAttachmentAfter();
         }
 
         [Test]
@@ -69,7 +55,6 @@ namespace ITestProject
                 .send.Click().AcceptAlert().Wait(3).AcceptAlert()
                 .ConfirmationOfSendTxt.Should.Exist() 
                 .ConfirmationOfSendTxt.Should.Contain("Лист успішно відправлено адресатам");
-            AddAttachmentAfter();
         }
 
  
@@ -89,8 +74,6 @@ namespace ITestProject
                 .DeleteBtn.Should.BeEnabled()
                 .DeleteBtn.Click().AcceptAlert()
                 .Products.Count.Should.Equal(count-1);
-
-            AddAttachmentAfter();
         }
 
         [Test]
@@ -111,8 +94,6 @@ namespace ITestProject
                 .WelcomeMsgPopupTxt.Should.BeVisible()
                 //.Report.Screenshot()
                 .WelcomeMsgPopupTxt.Should.Contain(" Добрий день, Andrii Hnatyshyn.");
-
-            AddAttachmentAfter();
         }
 
         [Test]
@@ -133,9 +114,6 @@ namespace ITestProject
                     .Wait(3)
                     .ConfirmationOfSendTxt.Should
                     .Contain("Лист успішно відправлено адресатам");
-
-            AddAttachmentAfter();
-
         }
 
         [Test]
@@ -156,7 +134,6 @@ namespace ITestProject
                     .ConfirmationOfSendTxt.Should
                     .Contain("Лист успішно відправлено адресатам");
 
-            AddAttachmentAfter();
         }
     }
 }

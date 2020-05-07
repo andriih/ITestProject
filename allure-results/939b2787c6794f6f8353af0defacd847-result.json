@@ -1,0 +1,98 @@
+{
+  "uuid": "93cd4f4d-35e5-49c5-aadd-cabe4cea7696-tr-0-1016",
+  "historyId": "ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody",
+  "fullName": "ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateSendingAnEmailWithoutBody"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Email"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "Email Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Email"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidateSendingAnEmailWithoutBody",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TimeoutException : Timed out after 9.4881293 seconds.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=81.0.4044.129)",
+    "trace": "   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)\r\n   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)\r\n   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)\r\n   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\EmailTests.cs:line 108\r\n--StaleElementReferenceException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElements(ISearchContext context)\r\n   at Atata.ExtendedBy.FindElements(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)\r\n   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)\r\n   at Atata.SafeWait`1.Until[TResult](Func`2 condition)\r\n   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)\r\n   at Atata.ExtendedSearchContext`1.Find(By by)\r\n   at Atata.ExtendedSearchContext`1.FindElement(By by)\r\n   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)\r\n   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)\r\n   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()\r\n   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)\r\n   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)\r\n   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)\r\n   at Atata.UIComponent.Exists(SearchOptions options)\r\n   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)\r\n   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidateSendingAnEmailWithoutBody",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TimeoutException : Timed out after 9.4881293 seconds.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=81.0.4044.129)",
+        "trace": "   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)\r\n   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)\r\n   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)\r\n   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\EmailTests.cs:line 108\r\n--StaleElementReferenceException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElements(ISearchContext context)\r\n   at Atata.ExtendedBy.FindElements(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)\r\n   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)\r\n   at Atata.SafeWait`1.Until[TResult](Func`2 condition)\r\n   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)\r\n   at Atata.ExtendedSearchContext`1.Find(By by)\r\n   at Atata.ExtendedSearchContext`1.FindElement(By by)\r\n   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)\r\n   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)\r\n   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()\r\n   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)\r\n   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)\r\n   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)\r\n   at Atata.UIComponent.Exists(SearchOptions options)\r\n   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)\r\n   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "ValidateSendingAnEmailWithoutBody.png",
+          "source": "05ddf052a1894bc0bb62dbf8e076e66f-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1bd585485cc74dfe8c92d32ab616c26a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861800968,
+      "stop": 1588861905305
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1588861800968,
+  "stop": 1588861905306
+}

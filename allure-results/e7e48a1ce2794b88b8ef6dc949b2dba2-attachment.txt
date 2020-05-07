@@ -1,0 +1,99 @@
+2020-05-07 17:27:56.0957 INFO Starting test: LoginWithDifferentCredentials("i.ua","andrii.hnatyshyn","Adrenalin1",null)
+2020-05-07 17:27:56.0957 INFO Starting test: LoginWithDifferentCredentials("i.ua","andrii.hnatyshyn","Adrenalin1",null)
+2020-05-07 17:27:56.0957 INFO Starting test: LoginWithDifferentCredentials("i.ua","andrii.hnatyshyn","Adrenalin1",null)
+2020-05-07 17:27:56.0977 TRACE Starting: Set up AtataContext
+2020-05-07 17:27:56.0977 TRACE Starting: Set up AtataContext
+2020-05-07 17:27:56.0977 TRACE Starting: Set up AtataContext
+2020-05-07 17:27:56.1007 TRACE Use: "Atata.json" config
+2020-05-07 17:27:56.1007 TRACE Use: "Atata.json" config
+2020-05-07 17:27:56.1007 TRACE Use: "Atata.json" config
+2020-05-07 17:27:56.1027 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:27:56.1027 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:27:56.1027 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:27:56.1037 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:27:56.1037 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:27:56.1037 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:27:56.1047 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:27:56.1047 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:27:56.1047 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:27:56.1057 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:27:56.1057 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:27:56.1057 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:27:56.1077 TRACE Set: Culture=en-US
+2020-05-07 17:27:56.1077 TRACE Set: Culture=en-US
+2020-05-07 17:27:56.1077 TRACE Set: Culture=en-US
+2020-05-07 17:28:02.7796 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:28:02.7796 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:28:02.7796 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:28:02.7806 TRACE Finished: Set up AtataContext (6.682s)
+2020-05-07 17:28:02.7806 TRACE Finished: Set up AtataContext (6.682s)
+2020-05-07 17:28:02.7806 TRACE Finished: Set up AtataContext (6.682s)
+2020-05-07 17:28:02.7816 INFO Go to "Login" page
+2020-05-07 17:28:02.7816 INFO Go to "Login" page
+2020-05-07 17:28:02.7816 INFO Go to "Login" page
+2020-05-07 17:28:02.7945 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:28:02.7945 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:28:02.7945 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:28:17.1021 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:28:17.1021 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:28:17.1021 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:28:17.1111 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.008s)
+2020-05-07 17:28:17.1111 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.008s)
+2020-05-07 17:28:17.1111 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.008s)
+2020-05-07 17:28:17.1131 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:28:17.1131 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:28:17.1131 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:28:19.0821 INFO Finished: Assert: content should contain "Пошта" (1.969s)
+2020-05-07 17:28:19.0821 INFO Finished: Assert: content should contain "Пошта" (1.969s)
+2020-05-07 17:28:19.0821 INFO Finished: Assert: content should contain "Пошта" (1.969s)
+2020-05-07 17:28:19.0841 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:28:19.0841 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:28:19.0841 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:28:20.5783 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.494s)
+2020-05-07 17:28:20.5783 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.494s)
+2020-05-07 17:28:20.5783 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.494s)
+2020-05-07 17:28:20.5793 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:28:20.5793 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:28:20.5793 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:28:22.4391 INFO Finished: Set "Adrenalin1" to "Password" password input (1.859s)
+2020-05-07 17:28:22.4391 INFO Finished: Set "Adrenalin1" to "Password" password input (1.859s)
+2020-05-07 17:28:22.4391 INFO Finished: Set "Adrenalin1" to "Password" password input (1.859s)
+2020-05-07 17:28:22.4411 INFO Starting: Set "i.ua" to "Domain" select
+2020-05-07 17:28:22.4411 INFO Starting: Set "i.ua" to "Domain" select
+2020-05-07 17:28:22.4411 INFO Starting: Set "i.ua" to "Domain" select
+2020-05-07 17:28:22.4451 TRACE Starting: Click "Domain" select's "i.ua" option
+2020-05-07 17:28:22.4451 TRACE Starting: Click "Domain" select's "i.ua" option
+2020-05-07 17:28:22.4451 TRACE Starting: Click "Domain" select's "i.ua" option
+2020-05-07 17:28:22.7921 TRACE Finished: Click "Domain" select's "i.ua" option (0.346s)
+2020-05-07 17:28:22.7921 TRACE Finished: Click "Domain" select's "i.ua" option (0.346s)
+2020-05-07 17:28:22.7921 TRACE Finished: Click "Domain" select's "i.ua" option (0.346s)
+2020-05-07 17:28:22.7931 INFO Finished: Set "i.ua" to "Domain" select (0.351s)
+2020-05-07 17:28:22.7931 INFO Finished: Set "i.ua" to "Domain" select (0.351s)
+2020-05-07 17:28:22.7931 INFO Finished: Set "i.ua" to "Domain" select (0.351s)
+2020-05-07 17:28:22.7941 INFO Starting: Click "Sign In" button
+2020-05-07 17:28:22.7941 INFO Starting: Click "Sign In" button
+2020-05-07 17:28:22.7941 INFO Starting: Click "Sign In" button
+2020-05-07 17:28:34.2852 INFO Finished: Click "Sign In" button (11.491s)
+2020-05-07 17:28:34.2852 INFO Finished: Click "Sign In" button (11.491s)
+2020-05-07 17:28:34.2852 INFO Finished: Click "Sign In" button (11.491s)
+2020-05-07 17:28:34.2862 INFO Go to "Email" page
+2020-05-07 17:28:34.2862 INFO Go to "Email" page
+2020-05-07 17:28:34.2862 INFO Go to "Email" page
+2020-05-07 17:28:34.2902 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:28:34.2902 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:28:34.2902 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:28:36.1210 INFO Finished: Assert: content should contain "Вхідні" (1.830s)
+2020-05-07 17:28:36.1210 INFO Finished: Assert: content should contain "Вхідні" (1.830s)
+2020-05-07 17:28:36.1210 INFO Finished: Assert: content should contain "Вхідні" (1.830s)
+2020-05-07 17:28:36.1230 INFO Starting: Clean up test context
+2020-05-07 17:28:36.1230 INFO Starting: Clean up test context
+2020-05-07 17:28:36.1230 INFO Starting: Clean up test context
+2020-05-07 17:28:39.5079 INFO Finished: Clean up test context (3.384s)
+2020-05-07 17:28:39.5079 INFO Finished: Clean up test context (3.384s)
+2020-05-07 17:28:39.5079 INFO Finished: Clean up test context (3.384s)
+2020-05-07 17:28:39.5089 INFO Finished test (43.413s)
+2020-05-07 17:28:39.5089 INFO Finished test (43.413s)
+2020-05-07 17:28:39.5089 INFO Finished test (43.413s)
+2020-05-07 17:28:39.5099 INFO Pure test execution time: 33.341s
+2020-05-07 17:28:39.5099 INFO Pure test execution time: 33.341s
+2020-05-07 17:28:39.5099 INFO Pure test execution time: 33.341s

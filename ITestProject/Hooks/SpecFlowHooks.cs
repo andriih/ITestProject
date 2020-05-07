@@ -1,18 +1,16 @@
-﻿using Atata;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Allure.Commons;
+using Atata;
+using NUnit.Framework;
+using NUnit.Framework.Interfaces;
+using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
 namespace ITestProject.Hooks
 {
+  
     [Binding]
-    public sealed class SpecFlowHooks
+    public sealed class SpecFlowHooks : UITestFixture
     {
-        // For additional details on SpecFlow hooks see http://go.specflow.org/doc-hooks
-
         [BeforeTestRun]
         public static void SetUpTestRun()
         {
@@ -25,7 +23,7 @@ namespace ITestProject.Hooks
                 UseAllNUnitFeatures();
         }
 
-        [BeforeScenario]
+        [BeforeScenario (Order = 0)]
         public static void SetUpScenario()
         {
             AtataContext.Configure().
@@ -35,6 +33,7 @@ namespace ITestProject.Hooks
         [AfterScenario]
         public static void TearDownScenario()
         {
+            AddAttachmentAfter();
             AtataContext.Current?.CleanUp();
         }
     }

@@ -1,7 +1,6 @@
 ﻿using Atata;
 using TechTalk.SpecFlow;
 
-
 namespace ITestProject.StepDefinitions
 {
     [Binding]

@@ -3,9 +3,11 @@ using TechTalk.SpecFlow;
 
 namespace ITestProject.StepDefinitions
 {
+
     [Binding]
     public class SendEmailSteps : BaseSteps
     {
+
         [Given(@"I am on Email Page")]
         public void GivenIAmOnEmailPage()
         {

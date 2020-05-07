@@ -1,11 +1,11 @@
 {
-  "uuid": "7c804580-80c8-4606-9515-6197a1c6c8d9-tr-0-1008",
-  "historyId": "ITestProject.EmailTests.ValidationOfWelcomeMessage",
-  "fullName": "ITestProject.EmailTests.ValidationOfWelcomeMessage",
+  "uuid": "ac60066e-97fd-459e-9fd9-ed31064c77cf-tr-0-1014",
+  "historyId": "ITestProject.EmailTests.DeleteItemFromDrafts",
+  "fullName": "ITestProject.EmailTests.DeleteItemFromDrafts",
   "labels": [
     {
       "name": "thread",
-      "value": "ParallelWorker#1"
+      "value": "ParallelWorker#3"
     },
     {
       "name": "host",
@@ -17,7 +17,7 @@
     },
     {
       "name": "testMethod",
-      "value": "ValidationOfWelcomeMessage"
+      "value": "DeleteItemFromDrafts"
     },
     {
       "name": "package",
@@ -51,7 +51,7 @@
       "type": "issue"
     }
   ],
-  "name": "ValidationOfWelcomeMessage",
+  "name": "DeleteItemFromDrafts",
   "status": "passed",
   "statusDetails": {
     "known": false,
@@ -61,7 +61,7 @@
   "stage": "finished",
   "steps": [
     {
-      "name": "ValidationOfWelcomeMessage",
+      "name": "DeleteItemFromDrafts",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -73,17 +73,17 @@
       "attachments": [
         {
           "name": "Console Output",
-          "source": "1f70a0f8ae534bc4aca0c277cdc5bcc1-attachment.txt",
+          "source": "361c78b4036f4484b0db37059426ceb4-attachment.txt",
           "type": "text/plain"
         }
       ],
       "parameters": [],
-      "start": 1583777257965,
-      "stop": 1583777280928
+      "start": 1588861721918,
+      "stop": 1588861865320
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1583777257960,
-  "stop": 1583777280941
+  "start": 1588861721918,
+  "stop": 1588861865320
 }

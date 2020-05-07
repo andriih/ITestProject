@@ -1,0 +1,76 @@
+{
+  "uuid": "bf967d53-f4a8-44e9-8640-9b685736c339-tc-0-1007",
+  "name": "ITestProject.LoginTests.testLogin",
+  "children": [
+    "1b2ff525-fc92-45f3-ad25-a8852c05e69e-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861955727,
+      "stop": 1588861955727
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861955727,
+      "stop": 1588861955727
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861955727,
+      "stop": 1588861955727
+    },
+    {
+      "name": "AddAttachmentAfter",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861955727,
+      "stop": 1588861955727
+    }
+  ],
+  "links": [],
+  "start": 1588861905407,
+  "stop": 1588861955764
+}

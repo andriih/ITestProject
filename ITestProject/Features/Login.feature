@@ -14,6 +14,6 @@ Scenario Outline: Login with Different credentials
 Examples: 
 	| Domain   | Login            | Password   |
 	| email.ua | andrii.hnatyshyn | Adrenalin1 |
-	| i.ua     | andrii.hnatyshyn_test1 | Some_Password1 |
 	| i.ua     | andrii.hnatyshyn | Adrenalin1 |
-	| i.ua     | andrii.hnatyshyn_test2 | Some_Password2 |
+	| email.ua | andrii.hnatyshyn | Adrenalin1Test1 |
+	| email.ua | andrii.hnatyshyn | Adrenalin1Test2 |

@@ -1,0 +1,89 @@
+{
+  "uuid": "958f8c50-0acf-4d04-8e19-602c3eaf9e03-tr-0-1010",
+  "historyId": "ITestProject.LoginTests.testLoginWithWrongCreds",
+  "fullName": "ITestProject.LoginTests.testLoginWithWrongCreds",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "testLoginWithWrongCreds"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.LoginTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Email"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "Login Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Login"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "testLoginWithWrongCreds",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "testLoginWithWrongCreds",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e9ac8d9c33354fa39577ed9292e209ee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861915218,
+      "stop": 1588861958990
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1588861915218,
+  "stop": 1588861958991
+}

@@ -1,0 +1,77 @@
+{
+  "uuid": "7a581267-3f13-4eec-9a76-6873f6931bad-tr-0-1003",
+  "historyId": "ITestProject.DataDrivenTests.LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\")",
+  "fullName": "ITestProject.DataDrivenTests.LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.DataDrivenTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithDifferentCreds"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.DataDrivenTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Wrong \"Email\" page content.\r\nExpected: should contain \"Вхідні\"\r\nActual: \"Вхід для користувачів\r\nНевірний логін або пароль\r\nзареєструватися\r\nЛогін\r\nнагадати пароль\r\nПароль\r\nзапам'ятати мене\r\nчерез:\r\n© I.UA, 2006-2020.\r\nЗворотний зв'язок\"",
+    "trace": "   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)\r\n   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)\r\n   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)\r\n   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)\r\n   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\DataDrivenTests.cs:line 14\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Wrong \"Email\" page content.\r\nExpected: should contain \"Вхідні\"\r\nActual: \"Вхід для користувачів\r\nНевірний логін або пароль\r\nзареєструватися\r\nЛогін\r\nнагадати пароль\r\nПароль\r\nзапам'ятати мене\r\nчерез:\r\n© I.UA, 2006-2020.\r\nЗворотний зв'язок\"",
+        "trace": "   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)\r\n   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)\r\n   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)\r\n   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)\r\n   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)\r\n   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)\r\n   at Atata.PageObject`1.Init()\r\n   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, GoOptions options)\r\n   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)\r\n   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)\r\n   at ITestProject.DataDrivenTests.LoginWithDifferentCreds(LoginModel model) in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\DataDrivenTests.cs:line 14\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\").png",
+          "source": "f308e7c634a34ee590c5055b694640d4-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8c665f1d9e6842b4b15db994352066b8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861609432,
+      "stop": 1588861663033
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "\"tes1\",\" tes1@mail.com\""
+    }
+  ],
+  "start": 1588861609432,
+  "stop": 1588861663035
+}

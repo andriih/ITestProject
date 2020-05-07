@@ -1,0 +1,174 @@
+2020-05-07 17:31:05.3846 INFO Starting test: ValidationOfWelcomeMessage
+2020-05-07 17:31:05.3846 INFO Starting test: ValidationOfWelcomeMessage
+2020-05-07 17:31:05.3846 INFO Starting test: ValidationOfWelcomeMessage
+2020-05-07 17:31:05.3856 TRACE Starting: Set up AtataContext
+2020-05-07 17:31:05.3856 TRACE Starting: Set up AtataContext
+2020-05-07 17:31:05.3856 TRACE Starting: Set up AtataContext
+2020-05-07 17:31:05.3866 TRACE Use: "Atata.json" config
+2020-05-07 17:31:05.3866 TRACE Use: "Atata.json" config
+2020-05-07 17:31:05.3866 TRACE Use: "Atata.json" config
+2020-05-07 17:31:05.3876 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:31:05.3876 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:31:05.3876 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:31:05.3886 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:31:05.3886 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:31:05.3886 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:31:05.3896 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:31:05.3896 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:31:05.3896 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:31:05.3906 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:31:05.3906 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:31:05.3906 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:31:05.3916 TRACE Set: Culture=en-US
+2020-05-07 17:31:05.3916 TRACE Set: Culture=en-US
+2020-05-07 17:31:05.3916 TRACE Set: Culture=en-US
+2020-05-07 17:31:11.8995 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:31:11.8995 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:31:11.8995 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:31:11.9005 TRACE Finished: Set up AtataContext (6.514s)
+2020-05-07 17:31:11.9005 TRACE Finished: Set up AtataContext (6.514s)
+2020-05-07 17:31:11.9005 TRACE Finished: Set up AtataContext (6.514s)
+2020-05-07 17:31:11.9035 INFO Go to "Login" page
+2020-05-07 17:31:11.9035 INFO Go to "Login" page
+2020-05-07 17:31:11.9035 INFO Go to "Login" page
+2020-05-07 17:31:11.9165 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:31:11.9165 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:31:11.9165 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:31:19.5478 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:31:19.5478 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:31:19.5478 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:31:19.5648 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:31:19.5648 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:31:19.5648 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.016s)
+2020-05-07 17:31:19.5658 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:31:19.5658 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:31:19.5658 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:31:21.3917 INFO Finished: Assert: content should contain "Пошта" (1.825s)
+2020-05-07 17:31:21.3917 INFO Finished: Assert: content should contain "Пошта" (1.825s)
+2020-05-07 17:31:21.3917 INFO Finished: Assert: content should contain "Пошта" (1.825s)
+2020-05-07 17:31:21.3927 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:31:21.3927 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:31:21.3927 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:31:25.0274 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (3.634s)
+2020-05-07 17:31:25.0274 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (3.634s)
+2020-05-07 17:31:25.0274 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (3.634s)
+2020-05-07 17:31:25.0284 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:31:25.0284 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:31:25.0284 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:31:25.4132 INFO Finished: Set "Adrenalin1" to "Password" password input (0.384s)
+2020-05-07 17:31:25.4132 INFO Finished: Set "Adrenalin1" to "Password" password input (0.384s)
+2020-05-07 17:31:25.4132 INFO Finished: Set "Adrenalin1" to "Password" password input (0.384s)
+2020-05-07 17:31:25.4142 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:31:25.4142 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:31:25.4142 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:31:25.4192 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:31:25.4192 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:31:25.4192 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:31:25.6590 TRACE Finished: Click "Domain" select's "email.ua" option (0.239s)
+2020-05-07 17:31:25.6590 TRACE Finished: Click "Domain" select's "email.ua" option (0.239s)
+2020-05-07 17:31:25.6590 TRACE Finished: Click "Domain" select's "email.ua" option (0.239s)
+2020-05-07 17:31:25.6610 INFO Finished: Set "email.ua" to "Domain" select (0.246s)
+2020-05-07 17:31:25.6610 INFO Finished: Set "email.ua" to "Domain" select (0.246s)
+2020-05-07 17:31:25.6610 INFO Finished: Set "email.ua" to "Domain" select (0.246s)
+2020-05-07 17:31:25.6620 INFO Starting: Click "Sign In" button
+2020-05-07 17:31:25.6620 INFO Starting: Click "Sign In" button
+2020-05-07 17:31:25.6620 INFO Starting: Click "Sign In" button
+2020-05-07 17:31:31.1766 INFO Finished: Click "Sign In" button (5.514s)
+2020-05-07 17:31:31.1766 INFO Finished: Click "Sign In" button (5.514s)
+2020-05-07 17:31:31.1766 INFO Finished: Click "Sign In" button (5.514s)
+2020-05-07 17:31:31.1776 INFO Go to "Email" page
+2020-05-07 17:31:31.1776 INFO Go to "Email" page
+2020-05-07 17:31:31.1776 INFO Go to "Email" page
+2020-05-07 17:31:31.1896 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:31:31.1896 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:31:31.1896 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:31:42.7485 INFO Finished: Assert: content should contain "Вхідні" (11.558s)
+2020-05-07 17:31:42.7485 INFO Finished: Assert: content should contain "Вхідні" (11.558s)
+2020-05-07 17:31:42.7485 INFO Finished: Assert: content should contain "Вхідні" (11.558s)
+2020-05-07 17:31:42.7495 INFO Starting: Click "Inbox" link
+2020-05-07 17:31:42.7495 INFO Starting: Click "Inbox" link
+2020-05-07 17:31:42.7495 INFO Starting: Click "Inbox" link
+2020-05-07 17:32:01.0498 INFO Finished: Click "Inbox" link (18.300s)
+2020-05-07 17:32:01.0498 INFO Finished: Click "Inbox" link (18.300s)
+2020-05-07 17:32:01.0498 INFO Finished: Click "Inbox" link (18.300s)
+2020-05-07 17:32:01.0538 INFO Go to "Inbox" page
+2020-05-07 17:32:01.0538 INFO Go to "Inbox" page
+2020-05-07 17:32:01.0538 INFO Go to "Inbox" page
+2020-05-07 17:32:01.0618 INFO Starting: Assert: "Welcome Txt" element should exist
+2020-05-07 17:32:01.0618 INFO Starting: Assert: "Welcome Txt" element should exist
+2020-05-07 17:32:01.0618 INFO Starting: Assert: "Welcome Txt" element should exist
+2020-05-07 17:32:15.4326 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4326 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4326 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4336 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4336 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4336 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4346 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4346 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4346 ERROR Wrong "Welcome Txt" element presence.
+Expected: should exist
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IUIComponentVerificationProviderExtensions.Exist[TComponent,TOwner](IUIComponentVerificationProvider`2 should)
+   at ITestProject.EmailTests.ValidationOfWelcomeMessage() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 88
+
+2020-05-07 17:32:15.4356 INFO Starting: Clean up test context
+2020-05-07 17:32:15.4356 INFO Starting: Clean up test context
+2020-05-07 17:32:15.4356 INFO Starting: Clean up test context
+2020-05-07 17:32:35.4361 INFO Finished: Clean up test context (20.000s)
+2020-05-07 17:32:35.4361 INFO Finished: Clean up test context (20.000s)
+2020-05-07 17:32:35.4361 INFO Finished: Clean up test context (20.000s)
+2020-05-07 17:32:35.4371 INFO Finished test (1m 30.052s)
+2020-05-07 17:32:35.4371 INFO Finished test (1m 30.052s)
+2020-05-07 17:32:35.4371 INFO Finished test (1m 30.052s)
+2020-05-07 17:32:35.4381 INFO Pure test execution time: 1m 3.533s
+2020-05-07 17:32:35.4381 INFO Pure test execution time: 1m 3.533s
+2020-05-07 17:32:35.4381 INFO Pure test execution time: 1m 3.533s

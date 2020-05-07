@@ -1,25 +1,10 @@
 {
-  "uuid": "f7878bd1-62b4-4c42-ae91-bf4858b02296-tc-0-1004",
-  "name": "ITestProject.EmailTests.ValidationOfWelcomeMessage",
+  "uuid": "251b0cf0-be96-4eea-8969-f91bff83e818-tc-0-1002",
+  "name": "ITestProject.DataDrivenTests.LoginWithDifferentCreds(\"tes1\",\" tes1@mail.com\")",
   "children": [
-    "7c804580-80c8-4606-9515-6197a1c6c8d9-tr-0-1008"
+    "7a581267-3f13-4eec-9a76-6873f6931bad-tr-0-1003"
   ],
   "befores": [
-    {
-      "name": "ClearResultsDir",
-      "status": "passed",
-      "statusDetails": {
-        "known": false,
-        "muted": false,
-        "flaky": false
-      },
-      "stage": "finished",
-      "steps": [],
-      "attachments": [],
-      "parameters": [],
-      "start": 1583777280900,
-      "stop": 1583777280900
-    },
     {
       "name": "SetUp",
       "status": "passed",
@@ -32,8 +17,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1583777280902,
-      "stop": 1583777280902
+      "start": 1588861662980,
+      "stop": 1588861662980
     }
   ],
   "afters": [
@@ -49,26 +34,28 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1583777280902,
-      "stop": 1583777280902
+      "start": 1588861662984,
+      "stop": 1588861662984
     },
     {
       "name": "AddAttachmentAfter",
-      "status": "passed",
+      "status": "none",
       "statusDetails": {
         "known": false,
         "muted": false,
-        "flaky": false
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
       },
       "stage": "finished",
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1583777280902,
-      "stop": 1583777280902
+      "start": 1588861662984,
+      "stop": 1588861662984
     }
   ],
   "links": [],
-  "start": 1583777257952,
-  "stop": 1583777281083
+  "start": 1588861609432,
+  "stop": 1588861663060
 }

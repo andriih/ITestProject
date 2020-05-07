@@ -1,0 +1,63 @@
+{
+  "uuid": "3cee3d0c-5a1d-4102-bcfa-01ac12894c3c-tr-0-1019",
+  "historyId": "ITestProject.SingletonTests.TestSingletonDatabase",
+  "fullName": "ITestProject.SingletonTests.TestSingletonDatabase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.SingletonTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSingletonDatabase"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.SingletonTests"
+    }
+  ],
+  "links": [],
+  "name": "TestSingletonDatabase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestSingletonDatabase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1528fa157e0f4f4cb21d8a5b3176f1ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861609439,
+      "stop": 1588861609484
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1588861609439,
+  "stop": 1588861609493
+}

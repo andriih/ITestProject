@@ -1,0 +1,393 @@
+2020-05-07 17:30:01.2810 INFO Starting test: LoginWithDifferentCredentials("email.ua","andrii.hnatyshyn","Adrenalin1Test2",null)
+2020-05-07 17:30:01.2810 INFO Starting test: LoginWithDifferentCredentials("email.ua","andrii.hnatyshyn","Adrenalin1Test2",null)
+2020-05-07 17:30:01.2810 INFO Starting test: LoginWithDifferentCredentials("email.ua","andrii.hnatyshyn","Adrenalin1Test2",null)
+2020-05-07 17:30:01.2820 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:01.2820 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:01.2820 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:01.2830 TRACE Use: "Atata.json" config
+2020-05-07 17:30:01.2830 TRACE Use: "Atata.json" config
+2020-05-07 17:30:01.2830 TRACE Use: "Atata.json" config
+2020-05-07 17:30:01.2850 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:01.2850 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:01.2850 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:01.2850 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:01.2850 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:01.2850 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:01.2860 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:01.2860 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:01.2860 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:01.2870 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:01.2870 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:01.2870 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:01.2890 TRACE Set: Culture=en-US
+2020-05-07 17:30:01.2890 TRACE Set: Culture=en-US
+2020-05-07 17:30:01.2890 TRACE Set: Culture=en-US
+2020-05-07 17:30:09.1481 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:09.1481 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:09.1481 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:09.1491 TRACE Finished: Set up AtataContext (7.867s)
+2020-05-07 17:30:09.1491 TRACE Finished: Set up AtataContext (7.867s)
+2020-05-07 17:30:09.1491 TRACE Finished: Set up AtataContext (7.867s)
+2020-05-07 17:30:09.1501 INFO Go to "Login" page
+2020-05-07 17:30:09.1501 INFO Go to "Login" page
+2020-05-07 17:30:09.1501 INFO Go to "Login" page
+2020-05-07 17:30:09.1681 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:09.1681 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:09.1681 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:27.5250 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:27.5250 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:27.5250 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:27.5650 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.039s)
+2020-05-07 17:30:27.5650 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.039s)
+2020-05-07 17:30:27.5650 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.039s)
+2020-05-07 17:30:27.5660 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:27.5660 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:27.5660 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:30.5111 INFO Finished: Assert: content should contain "Пошта" (2.945s)
+2020-05-07 17:30:30.5111 INFO Finished: Assert: content should contain "Пошта" (2.945s)
+2020-05-07 17:30:30.5111 INFO Finished: Assert: content should contain "Пошта" (2.945s)
+2020-05-07 17:30:30.5131 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:30.5131 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:30.5131 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:31.2197 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.706s)
+2020-05-07 17:30:31.2197 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.706s)
+2020-05-07 17:30:31.2197 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (0.706s)
+2020-05-07 17:30:31.2217 INFO Starting: Set "Adrenalin1Test2" to "Password" password input
+2020-05-07 17:30:31.2217 INFO Starting: Set "Adrenalin1Test2" to "Password" password input
+2020-05-07 17:30:31.2217 INFO Starting: Set "Adrenalin1Test2" to "Password" password input
+2020-05-07 17:30:31.7544 INFO Finished: Set "Adrenalin1Test2" to "Password" password input (0.532s)
+2020-05-07 17:30:31.7544 INFO Finished: Set "Adrenalin1Test2" to "Password" password input (0.532s)
+2020-05-07 17:30:31.7544 INFO Finished: Set "Adrenalin1Test2" to "Password" password input (0.532s)
+2020-05-07 17:30:31.7564 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.7564 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.7564 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.7724 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:31.7724 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:31.7724 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:32.1701 TRACE Finished: Click "Domain" select's "email.ua" option (0.397s)
+2020-05-07 17:30:32.1701 TRACE Finished: Click "Domain" select's "email.ua" option (0.397s)
+2020-05-07 17:30:32.1701 TRACE Finished: Click "Domain" select's "email.ua" option (0.397s)
+2020-05-07 17:30:32.1711 INFO Finished: Set "email.ua" to "Domain" select (0.414s)
+2020-05-07 17:30:32.1711 INFO Finished: Set "email.ua" to "Domain" select (0.414s)
+2020-05-07 17:30:32.1711 INFO Finished: Set "email.ua" to "Domain" select (0.414s)
+2020-05-07 17:30:32.1721 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:32.1721 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:32.1721 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:38.7970 INFO Finished: Click "Sign In" button (6.624s)
+2020-05-07 17:30:38.7970 INFO Finished: Click "Sign In" button (6.624s)
+2020-05-07 17:30:38.7970 INFO Finished: Click "Sign In" button (6.624s)
+2020-05-07 17:30:38.7990 INFO Go to "Email" page
+2020-05-07 17:30:38.7990 INFO Go to "Email" page
+2020-05-07 17:30:38.7990 INFO Go to "Email" page
+2020-05-07 17:30:38.8090 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:38.8090 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:38.8090 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:44.9982 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:44.9982 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:44.9982 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0002 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0002 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0002 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0012 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0012 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0012 ERROR Wrong "Email" page content.
+Expected: should contain "Вхідні"
+Actual: "Вхід для користувачів
+Невірний логін або пароль
+зареєструватися
+Логін
+нагадати пароль
+Пароль
+запам'ятати мене
+через:
+© I.UA, 2006-2020.
+Зворотний зв'язок"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyContentMatchesAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at ITestProject.StepDefinitions.BaseSteps.On[TPageObject]() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\BaseSteps.cs:line 12
+   at ITestProject.StepDefinitions.LoginSteps.ThenTheResultShouldBeSuccessfullLoginToTheI_UA() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\StepDefinitions\LoginSteps.cs:line 38
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 517
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 422
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at ITestProject.Features.LoginFeature.ScenarioCleanup()
+   at ITestProject.Features.LoginFeature.LoginWithDifferentCredentials(String domain, String login, String password, String[] exampleTags) in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Features\Login.feature:line 12
+
+2020-05-07 17:30:45.0022 INFO Starting: Clean up test context
+2020-05-07 17:30:45.0022 INFO Starting: Clean up test context
+2020-05-07 17:30:45.0022 INFO Starting: Clean up test context
+2020-05-07 17:30:48.6239 INFO Finished: Clean up test context (3.621s)
+2020-05-07 17:30:48.6239 INFO Finished: Clean up test context (3.621s)
+2020-05-07 17:30:48.6239 INFO Finished: Clean up test context (3.621s)
+2020-05-07 17:30:48.6249 INFO Finished test (47.343s)
+2020-05-07 17:30:48.6249 INFO Finished test (47.343s)
+2020-05-07 17:30:48.6249 INFO Finished test (47.343s)
+2020-05-07 17:30:48.6259 INFO Pure test execution time: 35.852s
+2020-05-07 17:30:48.6259 INFO Pure test execution time: 35.852s
+2020-05-07 17:30:48.6259 INFO Pure test execution time: 35.852s

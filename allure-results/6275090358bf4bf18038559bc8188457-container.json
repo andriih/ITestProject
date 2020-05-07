@@ -1,0 +1,76 @@
+{
+  "uuid": "5f4ed1a3-bcaa-4f7d-9ec4-0bcd87565023-tc-0-1011",
+  "name": "ITestProject.EmailTests.emailNewEmailSaveInDrafts",
+  "children": [
+    "c263a29c-4c84-4796-91c7-8a97725a861f-tr-0-1012"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861800914,
+      "stop": 1588861800914
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861800914,
+      "stop": 1588861800914
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861800914,
+      "stop": 1588861800914
+    },
+    {
+      "name": "AddAttachmentAfter",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1588861800914,
+      "stop": 1588861800914
+    }
+  ],
+  "links": [],
+  "start": 1588861722001,
+  "stop": 1588861800954
+}

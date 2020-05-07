@@ -1,0 +1,89 @@
+{
+  "uuid": "06ac26d3-9364-40db-b579-d22a3fee33a2-tr-0-1017",
+  "historyId": "ITestProject.EmailTests.ValidateSendingAnEmailWithCopy",
+  "fullName": "ITestProject.EmailTests.ValidateSendingAnEmailWithCopy",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateSendingAnEmailWithCopy"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.EmailTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Email"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "Email Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Email"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidateSendingAnEmailWithCopy",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidateSendingAnEmailWithCopy",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "54ed5ec9c3b140d28f4e908230e67a71-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861798344,
+      "stop": 1588861915165
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1588861798344,
+  "stop": 1588861915165
+}

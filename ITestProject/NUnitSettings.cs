@@ -1,4 +1,6 @@
 ﻿using NUnit.Framework;
 
-[assembly: LevelOfParallelism(4)]
-[assembly: Parallelizable(ParallelScope.Fixtures)]
+// LevelOfParallelism is optional here to restrict the number of parallel threads in testing purposes.
+//[assembly: LevelOfParallelism(4)]
+//[assembly: Parallelizable(ParallelScope.All)]
+

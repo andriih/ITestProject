@@ -1,0 +1,495 @@
+2020-05-07 17:30:00.9681 INFO Starting test: ValidateSendingAnEmailWithoutBody
+2020-05-07 17:30:00.9681 INFO Starting test: ValidateSendingAnEmailWithoutBody
+2020-05-07 17:30:00.9681 INFO Starting test: ValidateSendingAnEmailWithoutBody
+2020-05-07 17:30:00.9697 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:00.9697 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:00.9697 TRACE Starting: Set up AtataContext
+2020-05-07 17:30:00.9712 TRACE Use: "Atata.json" config
+2020-05-07 17:30:00.9712 TRACE Use: "Atata.json" config
+2020-05-07 17:30:00.9712 TRACE Use: "Atata.json" config
+2020-05-07 17:30:00.9722 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:00.9722 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:00.9722 TRACE Set: BaseUrl=https://www.i.ua/
+2020-05-07 17:30:00.9732 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:00.9732 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:00.9732 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-07 17:30:00.9742 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:00.9742 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:00.9742 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-07 17:30:00.9752 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:00.9752 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:00.9752 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-07 17:30:00.9782 TRACE Set: Culture=en-US
+2020-05-07 17:30:00.9782 TRACE Set: Culture=en-US
+2020-05-07 17:30:00.9782 TRACE Set: Culture=en-US
+2020-05-07 17:30:07.8029 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:07.8029 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:07.8029 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-07 17:30:07.8039 TRACE Finished: Set up AtataContext (6.834s)
+2020-05-07 17:30:07.8039 TRACE Finished: Set up AtataContext (6.834s)
+2020-05-07 17:30:07.8039 TRACE Finished: Set up AtataContext (6.834s)
+2020-05-07 17:30:07.8059 INFO Go to "Login" page
+2020-05-07 17:30:07.8059 INFO Go to "Login" page
+2020-05-07 17:30:07.8059 INFO Go to "Login" page
+2020-05-07 17:30:07.8179 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:07.8179 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:07.8179 INFO Go to URL "https://www.i.ua/"
+2020-05-07 17:30:26.5656 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:26.5656 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:26.5656 INFO Starting: Assert: title should equal "І.UA - твоя пошта"
+2020-05-07 17:30:26.5786 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.012s)
+2020-05-07 17:30:26.5786 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.012s)
+2020-05-07 17:30:26.5786 INFO Finished: Assert: title should equal "І.UA - твоя пошта" (0.012s)
+2020-05-07 17:30:26.5796 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:26.5796 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:26.5796 INFO Starting: Assert: content should contain "Пошта"
+2020-05-07 17:30:28.6173 INFO Finished: Assert: content should contain "Пошта" (2.037s)
+2020-05-07 17:30:28.6173 INFO Finished: Assert: content should contain "Пошта" (2.037s)
+2020-05-07 17:30:28.6173 INFO Finished: Assert: content should contain "Пошта" (2.037s)
+2020-05-07 17:30:28.6193 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:28.6193 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:28.6193 INFO Starting: Set "andrii.hnatyshyn" to "Login" text input
+2020-05-07 17:30:29.8156 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.196s)
+2020-05-07 17:30:29.8156 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.196s)
+2020-05-07 17:30:29.8156 INFO Finished: Set "andrii.hnatyshyn" to "Login" text input (1.196s)
+2020-05-07 17:30:29.8166 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:30:29.8166 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:30:29.8166 INFO Starting: Set "Adrenalin1" to "Password" password input
+2020-05-07 17:30:31.0118 INFO Finished: Set "Adrenalin1" to "Password" password input (1.195s)
+2020-05-07 17:30:31.0118 INFO Finished: Set "Adrenalin1" to "Password" password input (1.195s)
+2020-05-07 17:30:31.0118 INFO Finished: Set "Adrenalin1" to "Password" password input (1.195s)
+2020-05-07 17:30:31.0128 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.0128 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.0128 INFO Starting: Set "email.ua" to "Domain" select
+2020-05-07 17:30:31.0168 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:31.0168 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:31.0168 TRACE Starting: Click "Domain" select's "email.ua" option
+2020-05-07 17:30:31.3676 TRACE Finished: Click "Domain" select's "email.ua" option (0.350s)
+2020-05-07 17:30:31.3676 TRACE Finished: Click "Domain" select's "email.ua" option (0.350s)
+2020-05-07 17:30:31.3676 TRACE Finished: Click "Domain" select's "email.ua" option (0.350s)
+2020-05-07 17:30:31.3686 INFO Finished: Set "email.ua" to "Domain" select (0.355s)
+2020-05-07 17:30:31.3686 INFO Finished: Set "email.ua" to "Domain" select (0.355s)
+2020-05-07 17:30:31.3686 INFO Finished: Set "email.ua" to "Domain" select (0.355s)
+2020-05-07 17:30:31.3696 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:31.3696 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:31.3696 INFO Starting: Click "Sign In" button
+2020-05-07 17:30:48.1922 INFO Finished: Click "Sign In" button (16.822s)
+2020-05-07 17:30:48.1922 INFO Finished: Click "Sign In" button (16.822s)
+2020-05-07 17:30:48.1922 INFO Finished: Click "Sign In" button (16.822s)
+2020-05-07 17:30:48.1932 INFO Go to "Email" page
+2020-05-07 17:30:48.1932 INFO Go to "Email" page
+2020-05-07 17:30:48.1932 INFO Go to "Email" page
+2020-05-07 17:30:48.2012 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:48.2012 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:48.2012 INFO Starting: Assert: content should contain "Вхідні"
+2020-05-07 17:30:50.2019 INFO Finished: Assert: content should contain "Вхідні" (2.000s)
+2020-05-07 17:30:50.2019 INFO Finished: Assert: content should contain "Вхідні" (2.000s)
+2020-05-07 17:30:50.2019 INFO Finished: Assert: content should contain "Вхідні" (2.000s)
+2020-05-07 17:30:50.2029 INFO Starting: Click "Make Message" link
+2020-05-07 17:30:50.2029 INFO Starting: Click "Make Message" link
+2020-05-07 17:30:50.2029 INFO Starting: Click "Make Message" link
+2020-05-07 17:30:55.7645 INFO Finished: Click "Make Message" link (5.561s)
+2020-05-07 17:30:55.7645 INFO Finished: Click "Make Message" link (5.561s)
+2020-05-07 17:30:55.7645 INFO Finished: Click "Make Message" link (5.561s)
+2020-05-07 17:30:55.7665 INFO Go to "New Message" page
+2020-05-07 17:30:55.7665 INFO Go to "New Message" page
+2020-05-07 17:30:55.7665 INFO Go to "New Message" page
+2020-05-07 17:30:55.7755 INFO Starting: Assert: content should contain "andrii.hnatyshyn@email.ua"
+2020-05-07 17:30:55.7755 INFO Starting: Assert: content should contain "andrii.hnatyshyn@email.ua"
+2020-05-07 17:30:55.7755 INFO Starting: Assert: content should contain "andrii.hnatyshyn@email.ua"
+2020-05-07 17:30:58.9765 INFO Finished: Assert: content should contain "andrii.hnatyshyn@email.ua" (3.201s)
+2020-05-07 17:30:58.9765 INFO Finished: Assert: content should contain "andrii.hnatyshyn@email.ua" (3.201s)
+2020-05-07 17:30:58.9765 INFO Finished: Assert: content should contain "andrii.hnatyshyn@email.ua" (3.201s)
+2020-05-07 17:30:58.9775 TRACE Starting: Wait until "To" text area is visible within 5s with throw on failure with 0.5s retry interval
+2020-05-07 17:30:58.9775 TRACE Starting: Wait until "To" text area is visible within 5s with throw on failure with 0.5s retry interval
+2020-05-07 17:30:58.9775 TRACE Starting: Wait until "To" text area is visible within 5s with throw on failure with 0.5s retry interval
+2020-05-07 17:31:09.7708 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7708 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7708 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7718 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7718 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7718 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7728 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7728 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7728 ERROR System.TimeoutException : Timed out after 9.4881293 seconds.
+  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.129)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+   at Atata.UIComponent`1.OnWait(WaitUnit waitUnit)
+   at Atata.UIComponent`1.Wait(Until until, WaitOptions options)
+   at Atata.WaitForAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.ExecuteForChildren(TriggerEvents on)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.PageObject`1.Atata.IPageObject.GoTo[TOther](TOther pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Control`1.OnGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at Atata.Control`1.ClickAndGo[TNavigateTo](TNavigateTo navigateToPageObject, Nullable`1 temporarily)
+   at ITestProject.EmailTests.ValidateSendingAnEmailWithoutBody() in C:\Users\Admin\Desktop\refactoring2\ITestProject\ITestProject\Tests\EmailTests.cs:line 108
+--StaleElementReferenceException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementsByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at Atata.ExtendedBy.FindElements(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElements(By by)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Until[TResult](Func`2 condition, RetryOptions options)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.XPathComponentScopeLocateResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass4_0.<GetElement>b__0(XPathComponentScopeLocateResult x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.Exists(SearchOptions options)
+   at Atata.UIComponent`1.<>c__DisplayClass57_0.<OnWait>b__0(SearchOptions options)
+   at Atata.StaleSafely.Execute(Action`1 action, SearchOptions options)
+2020-05-07 17:31:09.7738 INFO Starting: Clean up test context
+2020-05-07 17:31:09.7738 INFO Starting: Clean up test context
+2020-05-07 17:31:09.7738 INFO Starting: Clean up test context
+2020-05-07 17:31:45.2700 INFO Finished: Clean up test context (35.496s)
+2020-05-07 17:31:45.2700 INFO Finished: Clean up test context (35.496s)
+2020-05-07 17:31:45.2700 INFO Finished: Clean up test context (35.496s)
+2020-05-07 17:31:45.2710 INFO Finished test (1m 44.302s)
+2020-05-07 17:31:45.2710 INFO Finished test (1m 44.302s)
+2020-05-07 17:31:45.2710 INFO Finished test (1m 44.302s)
+2020-05-07 17:31:45.2719 INFO Pure test execution time: 1m 1.968s
+2020-05-07 17:31:45.2719 INFO Pure test execution time: 1m 1.968s
+2020-05-07 17:31:45.2719 INFO Pure test execution time: 1m 1.968s

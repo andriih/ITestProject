@@ -1,0 +1,12 @@
+{
+  "uuid": "0ec9b93e-2a21-4892-aacb-6acaec769407-tc-0-1018",
+  "name": "ITestProject.SingletonTests.TestSingletonDatabase",
+  "children": [
+    "3cee3d0c-5a1d-4102-bcfa-01ac12894c3c-tr-0-1019"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1588861609439,
+  "stop": 1588861609649
+}

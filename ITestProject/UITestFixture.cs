@@ -2,46 +2,60 @@
 using Atata;
 using NUnit.Allure.Core;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System.IO;
+using System;
+
 
 namespace ITestProject
 {
 
     [TestFixture]
+    [AllureNUnit]
+    [Parallelizable(ParallelScope.All)]
     public class UITestFixture
     {
+
+        protected virtual DriverPoolUsage DriverPoolUsage => DriverPoolUsage.None;
+
         public AtataConfig Config
         {
             get { return AtataConfig.Current; }
         }
-       
+
         [SetUp]
         public void SetUp()
         {
-            AtataContext.Configure().
-                ApplyJsonConfig<AtataConfig>().
-                UseChrome().
-                WithArguments("start-maximized").
-                UseBaseUrl("https://www.i.ua/").
-                UseCulture("en-us").
-                UseNUnitTestName().
-                AddNUnitTestContextLogging().
-                LogNUnitError().
-                UseAssertionExceptionType<NUnit.Framework.AssertionException>().
-                UseNUnitAggregateAssertionStrategy().
-                //AddScreenshotFileSaving().
-                //  WithFolderPath(() => TestContext.CurrentContext.TestDirectory+ $@"\Logs").
-                //  WithFileName(screenshotInfo => $"{ AtataContext.Current.TestName}").
-                //TakeScreenshotOnNUnitError().
+            ConfigureAtataContext(AtataContext.Configure()).
                 Build();
         }
 
-        [TearDown]
-        virtual public void TearDown()
+        protected virtual AtataContextBuilder ConfigureAtataContext(AtataContextBuilder builder)
         {
-            AtataContext.Current?.CleanUp();
+            if (DriverPoolUsage == DriverPoolUsage.Fixture)
+                return builder.UseDriverPool(this);
+            else if (DriverPoolUsage == DriverPoolUsage.Global)
+                return builder.UseDriverPool();
+            else
+                return builder;
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            AddAttachmentAfter();
+            AtataContext.Current?.CleanUp(quitDriver: true);
+        }
+        
+        [OneTimeTearDown]
+        public static void AddAttachmentAfter()
+        {
+            if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
+            {
+                AllureLifecycle.Instance.AddAttachment($"{ AtataContext.Current.TestName}.png",
+                "image/png",
+                ((ITakesScreenshot)AtataContext.Current.Driver).GetScreenshot().AsByteArray);
+            }
         }
 
         protected EmailPage LoginToEmail()

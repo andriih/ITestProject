@@ -77,9 +77,9 @@ namespace ITestProject.Features
         [NUnit.Framework.DescriptionAttribute("Login with Different credentials")]
         [NUnit.Framework.CategoryAttribute("smoketest")]
         [NUnit.Framework.TestCaseAttribute("email.ua", "andrii.hnatyshyn", "Adrenalin1", null)]
-        [NUnit.Framework.TestCaseAttribute("i.ua", "andrii.hnatyshyn_test1", "Some_Password1", null)]
         [NUnit.Framework.TestCaseAttribute("i.ua", "andrii.hnatyshyn", "Adrenalin1", null)]
-        [NUnit.Framework.TestCaseAttribute("i.ua", "andrii.hnatyshyn_test2", "Some_Password2", null)]
+        [NUnit.Framework.TestCaseAttribute("email.ua", "andrii.hnatyshyn", "Adrenalin1Test1", null)]
+        [NUnit.Framework.TestCaseAttribute("email.ua", "andrii.hnatyshyn", "Adrenalin1Test2", null)]
         public virtual void LoginWithDifferentCredentials(string domain, string login, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {

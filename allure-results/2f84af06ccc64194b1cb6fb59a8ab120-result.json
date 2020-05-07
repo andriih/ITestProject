@@ -1,0 +1,68 @@
+{
+  "uuid": "6e09467e-3fa0-4b41-8d78-ad7775e40320-tr-0-1005",
+  "historyId": "ITestProject.DataDrivenTests.LoginWithDifferentCreds(\"andrii.hnatyshyn\",\" Adrenalin1\")",
+  "fullName": "ITestProject.DataDrivenTests.LoginWithDifferentCreds(\"andrii.hnatyshyn\",\" Adrenalin1\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.DataDrivenTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithDifferentCreds"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.DataDrivenTests"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithDifferentCreds(\"andrii.hnatyshyn\",\" Adrenalin1\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginWithDifferentCreds(\"andrii.hnatyshyn\",\" Adrenalin1\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "daeb372ab134409fa451f482121941bc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1588861663093,
+      "stop": 1588861721952
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "\"andrii.hnatyshyn\",\" Adrenalin1\""
+    }
+  ],
+  "start": 1588861663093,
+  "stop": 1588861721952
+}

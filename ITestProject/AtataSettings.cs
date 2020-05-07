@@ -1,3 +1,3 @@
 ﻿using Atata;
+using NUnit.Framework;
 
-//[assembly: VerifyTitleSettings(Format = "{0} - SITE_NAME")]
