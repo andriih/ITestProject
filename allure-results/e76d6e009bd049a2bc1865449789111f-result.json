@@ -1,0 +1,89 @@
+{
+  "uuid": "88928774-d00b-480c-9a54-7a70aa02e2f0-tr-0-1032",
+  "historyId": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "fullName": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusCodeTest"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "StatusCodeTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "StatusCodeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f1cd3d4ade3f4d0fb6a8dc52d37db157-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589062967818,
+      "stop": 1589062968420
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589062967818,
+  "stop": 1589062968432
+}

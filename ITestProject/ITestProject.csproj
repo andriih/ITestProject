@@ -81,6 +81,9 @@
     <Reference Include="NUnit.Allure, Version=1.0.6.2, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.Allure.1.0.6.2\lib\net45\NUnit.Allure.dll</HintPath>
     </Reference>
+    <Reference Include="RestSharp, Version=106.11.2.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.11.2\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -129,6 +132,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -163,6 +167,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Hooks\SpecFlowHooks.cs" />
+    <Compile Include="Components\Posts.cs" />
     <Compile Include="SetUpFixture.cs" />
     <Compile Include="StepDefinitions\BaseSteps.cs" />
     <Compile Include="StepDefinitions\LoginSteps.cs" />
@@ -184,7 +189,9 @@
     <Compile Include="AtataSettings.cs" />
     <Compile Include="Models\SingletonDatabase.cs" />
     <Compile Include="Extensions\TestParametersFormatter.cs" />
-    <Compile Include="UITestFixture.cs" />
+    <Compile Include="Tests\RestApiTests.cs" />
+    <Compile Include="Components\UITestFixture.cs" />
+    <Compile Include="Components\Users.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="allureConfig.Template.json" />

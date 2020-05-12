@@ -1,0 +1,63 @@
+{
+  "uuid": "91b77120-989c-459e-85dc-eb4b7d5d80b5-tr-0-1032",
+  "historyId": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "fullName": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusCodeTest"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    }
+  ],
+  "links": [],
+  "name": "StatusCodeTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "StatusCodeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3df885cb18f3427ba0c4ad9ca19832fb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589053132661,
+      "stop": 1589053135518
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589053132659,
+  "stop": 1589053135524
+}

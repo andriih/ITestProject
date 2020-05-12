@@ -1,0 +1,89 @@
+{
+  "uuid": "52e5a361-dc13-4cfa-83b0-b72ae86e5842-tr-0-1034",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId2",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidatePostTitleWhereId2"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidatePostTitleWhereId2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidatePostTitleWhereId2",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ef3ee156a1bc41278d5fc6aaa06b683a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589302467078,
+      "stop": 1589302517559
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589302467078,
+  "stop": 1589302517559
+}

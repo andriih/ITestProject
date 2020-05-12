@@ -1,0 +1,93 @@
+{
+  "uuid": "8f905b03-cbaa-458d-a118-6ada0b1ee96e-tr-0-1033",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidatePostTitleWhereId1"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidatePostTitleWhereId1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidCastException : Unable to cast object of type 'RestSharp.JsonArray' to type 'System.Collections.Generic.IDictionary`2[System.String,System.Object]'.",
+    "trace": "   at RestSharp.Serialization.Json.JsonSerializer.BuildDictionary(Type type, Object parent)\r\n   at RestSharp.Serialization.Json.JsonSerializer.ConvertValue(TypeInfo typeInfo, Object value)\r\n   at RestSharp.Serialization.Json.JsonSerializer.Deserialize[T](IRestResponse response)\r\n   at ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 64"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidatePostTitleWhereId1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidCastException : Unable to cast object of type 'RestSharp.JsonArray' to type 'System.Collections.Generic.IDictionary`2[System.String,System.Object]'.",
+        "trace": "   at RestSharp.Serialization.Json.JsonSerializer.BuildDictionary(Type type, Object parent)\r\n   at RestSharp.Serialization.Json.JsonSerializer.ConvertValue(TypeInfo typeInfo, Object value)\r\n   at RestSharp.Serialization.Json.JsonSerializer.Deserialize[T](IRestResponse response)\r\n   at ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 64"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8efb565e0e02486db7c5f8232b2ff34f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589218559524,
+      "stop": 1589218560396
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589218559524,
+  "stop": 1589218560428
+}

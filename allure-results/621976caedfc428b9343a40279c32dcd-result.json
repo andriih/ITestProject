@@ -1,0 +1,93 @@
+{
+  "uuid": "f5702061-cc10-4c2e-b652-46f11f972014-tr-0-1033",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidatePostTitleWhereId1"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidatePostTitleWhereId1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+    "trace": "   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 64"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidatePostTitleWhereId1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+        "trace": "   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)\r\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at ITestProject.Tests.RestApiTests.ValidatePostTitleWhereId1() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 64"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fb3f2650ec2e40638b2bec8f621214b6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589229227085,
+      "stop": 1589229287642
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589229227085,
+  "stop": 1589229287651
+}

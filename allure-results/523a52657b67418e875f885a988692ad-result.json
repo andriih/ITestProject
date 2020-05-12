@@ -1,0 +1,93 @@
+{
+  "uuid": "279a275d-48ba-48a2-b730-76dbb1a8567c-tr-0-1032",
+  "historyId": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "fullName": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusCodeTest"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "StatusCodeTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at ITestProject.Tests.RestApiTests.StatusCodeTest() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 42\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "StatusCodeTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at ITestProject.Tests.RestApiTests.StatusCodeTest() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 42\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a3acef0d688e420faf0fc1c49ec808d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589062791721,
+      "stop": 1589062792771
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589062791721,
+  "stop": 1589062792779
+}

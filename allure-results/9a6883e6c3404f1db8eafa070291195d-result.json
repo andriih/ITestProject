@@ -1,0 +1,89 @@
+{
+  "uuid": "e734c6d1-6a20-4343-ada1-e3500570d1ff-tr-0-1032",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn100PostsViaGET",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn100PostsViaGET",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateThatAPIwillReturn100PostsViaGET"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidateThatAPIwillReturn100PostsViaGET",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidateThatAPIwillReturn100PostsViaGET",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4946b83f15cb4e739d347df2ed42d911-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589302517587,
+      "stop": 1589302517740
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589302517587,
+  "stop": 1589302517740
+}

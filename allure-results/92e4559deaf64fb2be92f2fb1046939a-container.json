@@ -1,0 +1,12 @@
+{
+  "uuid": "9baa97bd-30c3-47f4-bce9-385c16548b95-tc-0-1031",
+  "name": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "children": [
+    "cf920b0f-428c-46aa-9f02-aed41007a445-tr-0-1032"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1589063004157,
+  "stop": 1589063004967
+}

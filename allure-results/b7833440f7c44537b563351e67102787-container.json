@@ -1,0 +1,28 @@
+{
+  "uuid": "50967b7a-21b8-4082-88aa-39fb11f7bc5e-tc-0-1031",
+  "name": "ITestProject.Tests.RestApiTests.ValidateCreationOfNewUserViaPOST",
+  "children": [
+    "41c15f07-406d-49f4-9f2b-d8813952202f-tr-0-1035"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1589302407137,
+      "stop": 1589302407137
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1589302407124,
+  "stop": 1589302407163
+}

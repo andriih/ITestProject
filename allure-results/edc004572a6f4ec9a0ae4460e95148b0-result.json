@@ -1,0 +1,93 @@
+{
+  "uuid": "7026b883-035a-4b3b-b8b8-73dae12bf56c-tr-0-1033",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn1PostsViaGET",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn1PostsViaGET",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateThatAPIwillReturn1PostsViaGET"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidateThatAPIwillReturn1PostsViaGET",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidCastException : Unable to cast object of type 'RestSharp.JsonArray' to type 'System.Collections.Generic.IDictionary`2[System.String,System.Object]'.",
+    "trace": "   at RestSharp.Serialization.Json.JsonSerializer.BuildDictionary(Type type, Object parent)\r\n   at RestSharp.Serialization.Json.JsonSerializer.ConvertValue(TypeInfo typeInfo, Object value)\r\n   at RestSharp.Serialization.Json.JsonSerializer.Deserialize[T](IRestResponse response)\r\n   at ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn1PostsViaGET() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 61"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidateThatAPIwillReturn1PostsViaGET",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidCastException : Unable to cast object of type 'RestSharp.JsonArray' to type 'System.Collections.Generic.IDictionary`2[System.String,System.Object]'.",
+        "trace": "   at RestSharp.Serialization.Json.JsonSerializer.BuildDictionary(Type type, Object parent)\r\n   at RestSharp.Serialization.Json.JsonSerializer.ConvertValue(TypeInfo typeInfo, Object value)\r\n   at RestSharp.Serialization.Json.JsonSerializer.Deserialize[T](IRestResponse response)\r\n   at ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn1PostsViaGET() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 61"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f8b5bdb0242f4e95a72b1012515127d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589147793684,
+      "stop": 1589147799016
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589147793684,
+  "stop": 1589147799025
+}

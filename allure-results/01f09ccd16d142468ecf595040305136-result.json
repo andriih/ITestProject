@@ -1,0 +1,93 @@
+{
+  "uuid": "603a6bfb-15d9-4f6c-9e4a-2c8b6e8b27cb-tr-0-1036",
+  "historyId": "ITestProject.Tests.RestApiTests.ValidateAbilityToDelete",
+  "fullName": "ITestProject.Tests.RestApiTests.ValidateAbilityToDelete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateAbilityToDelete"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "tag",
+      "value": "TC-Api"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Andrii Hnatyshyn"
+    },
+    {
+      "name": "suite",
+      "value": "REST Api Suite"
+    },
+    {
+      "name": "subSuite",
+      "value": "Api"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    }
+  ],
+  "name": "ValidateAbilityToDelete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at ITestProject.Tests.RestApiTests.ValidateAbilityToDelete() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 149\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ValidateAbilityToDelete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at ITestProject.Tests.RestApiTests.ValidateAbilityToDelete() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 149\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5247a2db28154c0c8f0ef89f43852310-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589301720104,
+      "stop": 1589301728503
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589301720104,
+  "stop": 1589301728512
+}

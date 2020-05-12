@@ -1,0 +1,28 @@
+{
+  "uuid": "760db4d5-e4c4-4f57-ac60-1b1efa685cd0-tc-0-1031",
+  "name": "ITestProject.Tests.RestApiTests.ValidateThatAPIwillReturn1PostsViaGET",
+  "children": [
+    "59da354b-67bd-42d3-9213-2caaf63bb083-tr-0-1033"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1589149039230,
+      "stop": 1589149039230
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1589149038868,
+  "stop": 1589149039388
+}

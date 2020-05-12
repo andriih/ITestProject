@@ -1,0 +1,28 @@
+{
+  "uuid": "74b61ffa-0419-41dd-adae-97d60bea77a1-tc-0-1031",
+  "name": "ITestProject.Tests.RestApiTests.ValidateAbilityToDelete",
+  "children": [
+    "603a6bfb-15d9-4f6c-9e4a-2c8b6e8b27cb-tr-0-1036"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1589301728485,
+      "stop": 1589301728485
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1589301720104,
+  "stop": 1589301728613
+}

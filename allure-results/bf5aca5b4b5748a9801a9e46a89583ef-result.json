@@ -1,0 +1,67 @@
+{
+  "uuid": "bcdf8e54-56be-4ca4-9598-4493e540a793-tr-0-1032",
+  "historyId": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "fullName": "ITestProject.Tests.RestApiTests.StatusCodeTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LENOVO"
+    },
+    {
+      "name": "testClass",
+      "value": "ITestProject.Tests.RestApiTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusCodeTest"
+    },
+    {
+      "name": "package",
+      "value": "ITestProject.Tests.RestApiTests"
+    }
+  ],
+  "links": [],
+  "name": "StatusCodeTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: OK\r\n  But was:  NotFound\r\n",
+    "trace": "   at ITestProject.Tests.RestApiTests.StatusCodeTest() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 24\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "StatusCodeTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: OK\r\n  But was:  NotFound\r\n",
+        "trace": "   at ITestProject.Tests.RestApiTests.StatusCodeTest() in C:\\Users\\Admin\\Desktop\\refactoring2\\ITestProject\\ITestProject\\Tests\\RestApiTests.cs:line 24\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "85b0d48921104a2bad880ab2f23924db-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1589052118703,
+      "stop": 1589052122625
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1589052118700,
+  "stop": 1589052122633
+}
